@@ -137,7 +137,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Storage.BlobInventoryPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Storage.BlobInventoryPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Storage.BlobInventoryPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Storage.BlobInventoryPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Storage.Models.BlobInventoryPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Storage.BlobInventoryPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Storage.BlobInventoryPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -271,7 +271,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Storage.DeletedAccountResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Storage.DeletedAccountResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Storage.DeletedAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Storage.DeletedAccountResource.CreateResourceIdentifier(System.String,Azure.Core.AzureLocation,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Storage.DeletedAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Storage.DeletedAccountResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -529,7 +529,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Storage.ManagementPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Storage.ManagementPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Storage.ManagementPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Storage.ManagementPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Storage.Models.ManagementPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Storage.ManagementPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Storage.ManagementPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>

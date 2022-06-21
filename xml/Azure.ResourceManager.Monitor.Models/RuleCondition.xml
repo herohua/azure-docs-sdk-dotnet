@@ -13,7 +13,11 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> The condition that results in the alert rule being activated. </summary>
+    <summary>
+            The condition that results in the alert rule being activated.
+            Please note <see cref="T:Azure.ResourceManager.Monitor.Models.RuleCondition" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.Monitor.Models.LocationThresholdRuleCondition" />, <see cref="T:Azure.ResourceManager.Monitor.Models.ManagementEventRuleCondition" /> and <see cref="T:Azure.ResourceManager.Monitor.Models.ThresholdRuleCondition" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +52,11 @@
         <ReturnType>Azure.ResourceManager.Monitor.Models.RuleDataSource</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> the resource from which the rule collects its data. For this type dataSource will always be of type RuleMetricDataSource. </summary>
+        <summary>
+            the resource from which the rule collects its data. For this type dataSource will always be of type RuleMetricDataSource.
+            Please note <see cref="T:Azure.ResourceManager.Monitor.Models.RuleDataSource" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.Monitor.Models.RuleManagementEventDataSource" /> and <see cref="T:Azure.ResourceManager.Monitor.Models.RuleMetricDataSource" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

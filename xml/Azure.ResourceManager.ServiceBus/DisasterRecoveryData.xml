@@ -94,18 +94,18 @@
       </Docs>
     </Member>
     <Member MemberName="ProvisioningState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ServiceBus.Models.ProvisioningStateDisasterRecovery? ProvisioningState { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ServiceBus.Models.ProvisioningStateDisasterRecovery&gt; ProvisioningState" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ServiceBus.Models.DisasterRecoveryProvisioningState? ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ServiceBus.Models.DisasterRecoveryProvisioningState&gt; ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ServiceBus.DisasterRecoveryData.ProvisioningState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of ProvisioningStateDisasterRecovery)" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.ServiceBus.Models.ProvisioningStateDisasterRecovery&gt;" Usage="Azure.ResourceManager.ServiceBus.DisasterRecoveryData.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of DisasterRecoveryProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.ServiceBus.Models.DisasterRecoveryProvisioningState&gt;" Usage="Azure.ResourceManager.ServiceBus.DisasterRecoveryData.ProvisioningState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ServiceBus</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.ServiceBus.Models.ProvisioningStateDisasterRecovery&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.ServiceBus.Models.DisasterRecoveryProvisioningState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Provisioning state of the Alias(Disaster Recovery configuration) - possible values 'Accepted' or 'Succeeded' or 'Failed'. </summary>

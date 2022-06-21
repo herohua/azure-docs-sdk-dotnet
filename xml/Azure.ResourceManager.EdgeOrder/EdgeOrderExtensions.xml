@@ -506,7 +506,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.EdgeOrder.OrderResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.EdgeOrder.OrderResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.EdgeOrder.OrderResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.EdgeOrder.OrderResource.CreateResourceIdentifier(System.String,System.String,Azure.Core.AzureLocation,System.String)" /> to create an <see cref="T:Azure.ResourceManager.EdgeOrder.OrderResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.EdgeOrder.OrderResource" /> object. </returns>
         <remarks>To be added.</remarks>

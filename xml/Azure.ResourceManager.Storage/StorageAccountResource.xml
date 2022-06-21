@@ -395,7 +395,7 @@
         <summary>
             List SAS credentials of a storage account.
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/ListAccountSas
-            Operation Id: StorageAccounts_ListAccountSas
+            Operation Id: StorageAccounts_ListAccountSAS
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -427,7 +427,7 @@
         <summary>
             List SAS credentials of a storage account.
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/ListAccountSas
-            Operation Id: StorageAccounts_ListAccountSas
+            Operation Id: StorageAccounts_ListAccountSAS
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -1033,7 +1033,7 @@
         <summary>
             List service SAS credentials of a specific resource.
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/ListServiceSas
-            Operation Id: StorageAccounts_ListServiceSas
+            Operation Id: StorageAccounts_ListServiceSAS
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -1065,7 +1065,7 @@
         <summary>
             List service SAS credentials of a specific resource.
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/ListServiceSas
-            Operation Id: StorageAccounts_ListServiceSas
+            Operation Id: StorageAccounts_ListServiceSAS
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

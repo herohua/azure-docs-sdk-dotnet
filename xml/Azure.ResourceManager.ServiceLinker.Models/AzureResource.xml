@@ -68,7 +68,11 @@
         <ReturnType>Azure.ResourceManager.ServiceLinker.Models.AzureResourcePropertiesBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> The azure resource connection related properties. </summary>
+        <summary>
+            The azure resource connection related properties.
+            Please note <see cref="T:Azure.ResourceManager.ServiceLinker.Models.AzureResourcePropertiesBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.ServiceLinker.Models.AzureKeyVaultProperties" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

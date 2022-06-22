@@ -42,18 +42,18 @@
       </Docs>
     </Member>
     <Member MemberName="AccessPolicies">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.AccessPolicyEntry&gt; AccessPolicies { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.KeyVault.Models.AccessPolicyEntry&gt; AccessPolicies" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.VaultAccessPolicy&gt; AccessPolicies { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.KeyVault.Models.VaultAccessPolicy&gt; AccessPolicies" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.KeyVault.Models.VaultProperties.AccessPolicies" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AccessPolicies As IList(Of AccessPolicyEntry)" />
-      <MemberSignature Language="F#" Value="member this.AccessPolicies : System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.AccessPolicyEntry&gt;" Usage="Azure.ResourceManager.KeyVault.Models.VaultProperties.AccessPolicies" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AccessPolicies As IList(Of VaultAccessPolicy)" />
+      <MemberSignature Language="F#" Value="member this.AccessPolicies : System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.VaultAccessPolicy&gt;" Usage="Azure.ResourceManager.KeyVault.Models.VaultProperties.AccessPolicies" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.AccessPolicyEntry&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.VaultAccessPolicy&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> An array of 0 to 1024 identities that have access to the key vault. All identities in the array must use the same tenant ID as the key vault's tenant ID. When `createMode` is set to `recover`, access policies are not required. Otherwise, access policies are required. </summary>
@@ -62,18 +62,18 @@
       </Docs>
     </Member>
     <Member MemberName="CreateMode">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.KeyVault.Models.CreateMode? CreateMode { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.KeyVault.Models.CreateMode&gt; CreateMode" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.KeyVault.Models.VaultCreateMode? CreateMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.KeyVault.Models.VaultCreateMode&gt; CreateMode" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.KeyVault.Models.VaultProperties.CreateMode" />
-      <MemberSignature Language="VB.NET" Value="Public Property CreateMode As Nullable(Of CreateMode)" />
-      <MemberSignature Language="F#" Value="member this.CreateMode : Nullable&lt;Azure.ResourceManager.KeyVault.Models.CreateMode&gt; with get, set" Usage="Azure.ResourceManager.KeyVault.Models.VaultProperties.CreateMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreateMode As Nullable(Of VaultCreateMode)" />
+      <MemberSignature Language="F#" Value="member this.CreateMode : Nullable&lt;Azure.ResourceManager.KeyVault.Models.VaultCreateMode&gt; with get, set" Usage="Azure.ResourceManager.KeyVault.Models.VaultProperties.CreateMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.KeyVault.Models.CreateMode&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.KeyVault.Models.VaultCreateMode&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The vault's create mode to indicate whether the vault need to be recovered or not. </summary>
@@ -241,19 +241,39 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="PrivateEndpointConnections">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.KeyVault.Models.PrivateEndpointConnectionItem&gt; PrivateEndpointConnections { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.KeyVault.Models.PrivateEndpointConnectionItem&gt; PrivateEndpointConnections" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.KeyVault.Models.VaultProperties.PrivateEndpointConnections" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrivateEndpointConnections As IReadOnlyList(Of PrivateEndpointConnectionItem)" />
-      <MemberSignature Language="F#" Value="member this.PrivateEndpointConnections : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.KeyVault.Models.PrivateEndpointConnectionItem&gt;" Usage="Azure.ResourceManager.KeyVault.Models.VaultProperties.PrivateEndpointConnections" />
+    <Member MemberName="NetworkRuleSet">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.KeyVault.Models.VaultNetworkRuleSet NetworkRuleSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.KeyVault.Models.VaultNetworkRuleSet NetworkRuleSet" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.KeyVault.Models.VaultProperties.NetworkRuleSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetworkRuleSet As VaultNetworkRuleSet" />
+      <MemberSignature Language="F#" Value="member this.NetworkRuleSet : Azure.ResourceManager.KeyVault.Models.VaultNetworkRuleSet with get, set" Usage="Azure.ResourceManager.KeyVault.Models.VaultProperties.NetworkRuleSet" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.KeyVault.Models.PrivateEndpointConnectionItem&gt;</ReturnType>
+        <ReturnType>Azure.ResourceManager.KeyVault.Models.VaultNetworkRuleSet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Rules governing the accessibility of the key vault from specific network locations. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivateEndpointConnections">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.KeyVault.Models.PrivateEndpointConnectionItemData&gt; PrivateEndpointConnections { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.KeyVault.Models.PrivateEndpointConnectionItemData&gt; PrivateEndpointConnections" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.KeyVault.Models.VaultProperties.PrivateEndpointConnections" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrivateEndpointConnections As IReadOnlyList(Of PrivateEndpointConnectionItemData)" />
+      <MemberSignature Language="F#" Value="member this.PrivateEndpointConnections : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.KeyVault.Models.PrivateEndpointConnectionItemData&gt;" Usage="Azure.ResourceManager.KeyVault.Models.VaultProperties.PrivateEndpointConnections" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.KeyVault.Models.PrivateEndpointConnectionItemData&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> List of private endpoint connections associated with the key vault. </summary>

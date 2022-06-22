@@ -85,6 +85,112 @@
           <paramref name="content" /> is null. </exception>
       </Docs>
     </Member>
+    <Member MemberName="CheckVaultNameAvailability">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityResult&gt; CheckVaultNameAvailability (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityResult&gt; CheckVaultNameAvailability(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, class Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.KeyVaultExtensions.CheckVaultNameAvailability(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckVaultNameAvailability (subscriptionResource As SubscriptionResource, content As VaultNameAvailabilityContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of VaultNameAvailabilityResult)" />
+      <MemberSignature Language="F#" Value="static member CheckVaultNameAvailability : Azure.ResourceManager.Resources.SubscriptionResource * Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityResult&gt;" Usage="Azure.ResourceManager.KeyVault.KeyVaultExtensions.CheckVaultNameAvailability (subscriptionResource, content, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="content" Type="Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="content"> The name of the vault. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Checks that the vault name is valid and is not already in use.
+            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.KeyVault/checkNameAvailability
+            Operation Id: Vaults_CheckNameAvailability
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckVaultNameAvailabilityAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityResult&gt;&gt; CheckVaultNameAvailabilityAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityResult&gt;&gt; CheckVaultNameAvailabilityAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, class Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.KeyVaultExtensions.CheckVaultNameAvailabilityAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckVaultNameAvailabilityAsync (subscriptionResource As SubscriptionResource, content As VaultNameAvailabilityContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of VaultNameAvailabilityResult))" />
+      <MemberSignature Language="F#" Value="static member CheckVaultNameAvailabilityAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityResult&gt;&gt;" Usage="Azure.ResourceManager.KeyVault.KeyVaultExtensions.CheckVaultNameAvailabilityAsync (subscriptionResource, content, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="content" Type="Azure.ResourceManager.KeyVault.Models.VaultNameAvailabilityContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="content"> The name of the vault. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Checks that the vault name is valid and is not already in use.
+            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.KeyVault/checkNameAvailability
+            Operation Id: Vaults_CheckNameAvailability
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDeletedManagedHsm">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt; GetDeletedManagedHsm (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string name, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt; GetDeletedManagedHsm(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetDeletedManagedHsm(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedManagedHsm (subscriptionResource As SubscriptionResource, location As AzureLocation, name As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DeletedManagedHsmResource)" />
+      <MemberSignature Language="F#" Value="static member GetDeletedManagedHsm : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt;" Usage="Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetDeletedManagedHsm (subscriptionResource, location, name, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="location"> The location of the deleted managed HSM. </param>
+        <param name="name"> The name of the deleted managed HSM. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the specified deleted managed HSM.
+            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.KeyVault/locations/{location}/deletedManagedHSMs/{name}
+            Operation Id: ManagedHsms_GetDeleted
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="name" /> is null. </exception>
+      </Docs>
+    </Member>
     <Member MemberName="GetDeletedManagedHsm">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt; GetDeletedManagedHsm (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string location, string name, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt; GetDeletedManagedHsm(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string location, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -121,6 +227,44 @@
           <paramref name="location" /> or <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="location" /> or <paramref name="name" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDeletedManagedHsmAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt;&gt; GetDeletedManagedHsmAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string name, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt;&gt; GetDeletedManagedHsmAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetDeletedManagedHsmAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedManagedHsmAsync (subscriptionResource As SubscriptionResource, location As AzureLocation, name As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DeletedManagedHsmResource))" />
+      <MemberSignature Language="F#" Value="static member GetDeletedManagedHsmAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt;&gt;" Usage="Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetDeletedManagedHsmAsync (subscriptionResource, location, name, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedManagedHsmResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="location"> The location of the deleted managed HSM. </param>
+        <param name="name"> The name of the deleted managed HSM. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the specified deleted managed HSM.
+            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.KeyVault/locations/{location}/deletedManagedHSMs/{name}
+            Operation Id: ManagedHsms_GetDeleted
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="name" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDeletedManagedHsmAsync">
@@ -184,7 +328,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.KeyVault.DeletedManagedHsmResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.KeyVault.DeletedManagedHsmResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.KeyVault.DeletedManagedHsmResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.KeyVault.DeletedManagedHsmResource.CreateResourceIdentifier(System.String,Azure.Core.AzureLocation,System.String)" /> to create a <see cref="T:Azure.ResourceManager.KeyVault.DeletedManagedHsmResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.KeyVault.DeletedManagedHsmResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -275,6 +419,44 @@
       </Docs>
     </Member>
     <Member MemberName="GetDeletedVault">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedVaultResource&gt; GetDeletedVault (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string vaultName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.DeletedVaultResource&gt; GetDeletedVault(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string vaultName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetDeletedVault(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedVault (subscriptionResource As SubscriptionResource, location As AzureLocation, vaultName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DeletedVaultResource)" />
+      <MemberSignature Language="F#" Value="static member GetDeletedVault : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedVaultResource&gt;" Usage="Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetDeletedVault (subscriptionResource, location, vaultName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedVaultResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="vaultName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="location"> The location of the deleted vault. </param>
+        <param name="vaultName"> The name of the vault. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the deleted Azure key vault.
+            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.KeyVault/locations/{location}/deletedVaults/{vaultName}
+            Operation Id: Vaults_GetDeleted
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="vaultName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="vaultName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDeletedVault">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedVaultResource&gt; GetDeletedVault (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string location, string vaultName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.DeletedVaultResource&gt; GetDeletedVault(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string location, string vaultName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetDeletedVault(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.String,System.Threading.CancellationToken)" />
@@ -310,6 +492,44 @@
           <paramref name="location" /> or <paramref name="vaultName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="location" /> or <paramref name="vaultName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDeletedVaultAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedVaultResource&gt;&gt; GetDeletedVaultAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string vaultName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.DeletedVaultResource&gt;&gt; GetDeletedVaultAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string vaultName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetDeletedVaultAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeletedVaultAsync (subscriptionResource As SubscriptionResource, location As AzureLocation, vaultName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DeletedVaultResource))" />
+      <MemberSignature Language="F#" Value="static member GetDeletedVaultAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedVaultResource&gt;&gt;" Usage="Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetDeletedVaultAsync (subscriptionResource, location, vaultName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.DeletedVaultResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="vaultName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="location"> The location of the deleted vault. </param>
+        <param name="vaultName"> The name of the vault. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the deleted Azure key vault.
+            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.KeyVault/locations/{location}/deletedVaults/{vaultName}
+            Operation Id: Vaults_GetDeleted
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="vaultName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="vaultName" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDeletedVaultAsync">
@@ -373,7 +593,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.KeyVault.DeletedVaultResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.KeyVault.DeletedVaultResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.KeyVault.DeletedVaultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.KeyVault.DeletedVaultResource.CreateResourceIdentifier(System.String,Azure.Core.AzureLocation,System.String)" /> to create a <see cref="T:Azure.ResourceManager.KeyVault.DeletedVaultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.KeyVault.DeletedVaultResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -463,6 +683,35 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetKeyVaultPrivateEndpointConnectionResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource GetKeyVaultPrivateEndpointConnectionResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource GetKeyVaultPrivateEndpointConnectionResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetKeyVaultPrivateEndpointConnectionResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetKeyVaultPrivateEndpointConnectionResource (client As ArmClient, id As ResourceIdentifier) As KeyVaultPrivateEndpointConnectionResource" />
+      <MemberSignature Language="F#" Value="static member GetKeyVaultPrivateEndpointConnectionResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource" Usage="Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetKeyVaultPrivateEndpointConnectionResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetManagedHsm">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.KeyVault.ManagedHsmResource&gt; GetManagedHsm (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string name, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.ManagedHsmResource&gt; GetManagedHsm(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -533,6 +782,35 @@
           <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetManagedHsmPrivateEndpointConnectionResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.KeyVault.ManagedHsmPrivateEndpointConnectionResource GetManagedHsmPrivateEndpointConnectionResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.KeyVault.ManagedHsmPrivateEndpointConnectionResource GetManagedHsmPrivateEndpointConnectionResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetManagedHsmPrivateEndpointConnectionResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetManagedHsmPrivateEndpointConnectionResource (client As ArmClient, id As ResourceIdentifier) As ManagedHsmPrivateEndpointConnectionResource" />
+      <MemberSignature Language="F#" Value="static member GetManagedHsmPrivateEndpointConnectionResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.KeyVault.ManagedHsmPrivateEndpointConnectionResource" Usage="Azure.ResourceManager.KeyVault.KeyVaultExtensions.GetManagedHsmPrivateEndpointConnectionResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.KeyVault.ManagedHsmPrivateEndpointConnectionResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.KeyVault.ManagedHsmPrivateEndpointConnectionResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.KeyVault.ManagedHsmPrivateEndpointConnectionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.KeyVault.ManagedHsmPrivateEndpointConnectionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.KeyVault.ManagedHsmPrivateEndpointConnectionResource" /> object. </returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetManagedHsmResource">

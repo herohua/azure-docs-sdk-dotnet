@@ -27,8 +27,8 @@
       <MemberSignature Language="DocId" Value="M:Azure.Communication.Identity.CommunicationIdentityClientOptions.#ctor(Azure.Communication.Identity.CommunicationIdentityClientOptions.ServiceVersion)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As CommunicationIdentityClientOptions.ServiceVersion = Azure.Communication.Identity.CommunicationIdentityClientOptions+ServiceVersion.V2021_03_07)" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="new Azure.Communication.Identity.CommunicationIdentityClientOptions : Azure.Communication.Identity.CommunicationIdentityClientOptions.ServiceVersion -&gt; Azure.Communication.Identity.CommunicationIdentityClientOptions" Usage="new Azure.Communication.Identity.CommunicationIdentityClientOptions version" />
-      <MemberSignature Language="C#" Value="public CommunicationIdentityClientOptions (Azure.Communication.Identity.CommunicationIdentityClientOptions.ServiceVersion version = Azure.Communication.Identity.CommunicationIdentityClientOptions+ServiceVersion.V2021_10_31_preview);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As CommunicationIdentityClientOptions.ServiceVersion = Azure.Communication.Identity.CommunicationIdentityClientOptions+ServiceVersion.V2021_10_31_preview)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="C#" Value="public CommunicationIdentityClientOptions (Azure.Communication.Identity.CommunicationIdentityClientOptions.ServiceVersion version = Azure.Communication.Identity.CommunicationIdentityClientOptions+ServiceVersion.V2022_06_01);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As CommunicationIdentityClientOptions.ServiceVersion = Azure.Communication.Identity.CommunicationIdentityClientOptions+ServiceVersion.V2022_06_01)" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.Identity</AssemblyName>

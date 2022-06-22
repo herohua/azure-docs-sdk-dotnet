@@ -39,6 +39,40 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string serverName, string jobAgentName, string jobName, int jobVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string serverName, string jobAgentName, string jobName, int32 jobVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.JobVersionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, serverName As String, jobAgentName As String, jobName As String, jobVersion As Integer) As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * string * string * int -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Sql.JobVersionResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, serverName, jobAgentName, jobName, jobVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionId" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="serverName" Type="System.String" />
+        <Parameter Name="jobAgentName" Type="System.String" />
+        <Parameter Name="jobName" Type="System.String" />
+        <Parameter Name="jobVersion" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionId">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="serverName">To be added.</param>
+        <param name="jobAgentName">To be added.</param>
+        <param name="jobName">To be added.</param>
+        <param name="jobVersion">To be added.</param>
+        <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Sql.JobVersionResource" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateResourceIdentifier">
       <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string serverName, string jobAgentName, string jobName, string jobVersion);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string serverName, string jobAgentName, string jobName, string jobVersion) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.JobVersionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" />

@@ -1,0 +1,197 @@
+<Type Name="MediaCompositionLayout" FullName="Azure.Communication.MediaComposition.Models.MediaCompositionLayout">
+  <TypeSignature Language="C#" Value="public class MediaCompositionLayout" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaCompositionLayout extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.MediaComposition.Models.MediaCompositionLayout" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaCompositionLayout" />
+  <TypeSignature Language="F#" Value="type MediaCompositionLayout = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Configure a layout. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaCompositionLayout ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.Models.MediaCompositionLayout.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of MediaCompositionLayout. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoGrid">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.AutoGridLayoutOptions AutoGrid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.AutoGridLayoutOptions AutoGrid" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.Models.MediaCompositionLayout.AutoGrid" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoGrid As AutoGridLayoutOptions" />
+      <MemberSignature Language="F#" Value="member this.AutoGrid : Azure.Communication.MediaComposition.AutoGridLayoutOptions with get, set" Usage="Azure.Communication.MediaComposition.Models.MediaCompositionLayout.AutoGrid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.AutoGridLayoutOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Configure the autogrid layout. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Custom">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.CustomLayoutOptions Custom { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.CustomLayoutOptions Custom" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Custom" />
+      <MemberSignature Language="VB.NET" Value="Public Property Custom As CustomLayoutOptions" />
+      <MemberSignature Language="F#" Value="member this.Custom : Azure.Communication.MediaComposition.CustomLayoutOptions with get, set" Usage="Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Custom" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.CustomLayoutOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Configure custom layout. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Grid">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.GridLayoutOptions Grid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.GridLayoutOptions Grid" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Grid" />
+      <MemberSignature Language="VB.NET" Value="Public Property Grid As GridLayoutOptions" />
+      <MemberSignature Language="F#" Value="member this.Grid : Azure.Communication.MediaComposition.GridLayoutOptions with get, set" Usage="Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Grid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.GridLayoutOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Configure the grid layout. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.LayoutType? Kind { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Communication.MediaComposition.LayoutType&gt; Kind" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As Nullable(Of LayoutType)" />
+      <MemberSignature Language="F#" Value="member this.Kind : Nullable&lt;Azure.Communication.MediaComposition.LayoutType&gt; with get, set" Usage="Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Kind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Communication.MediaComposition.LayoutType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Kind of layout. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlaceholderImageUri">
+      <MemberSignature Language="C#" Value="public string PlaceholderImageUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PlaceholderImageUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.Models.MediaCompositionLayout.PlaceholderImageUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property PlaceholderImageUri As String" />
+      <MemberSignature Language="F#" Value="member this.PlaceholderImageUri : string with get, set" Usage="Azure.Communication.MediaComposition.Models.MediaCompositionLayout.PlaceholderImageUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Set global placeholder image. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Presentation">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.PresentationLayoutOptions Presentation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.PresentationLayoutOptions Presentation" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Presentation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Presentation As PresentationLayoutOptions" />
+      <MemberSignature Language="F#" Value="member this.Presentation : Azure.Communication.MediaComposition.PresentationLayoutOptions with get, set" Usage="Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Presentation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.PresentationLayoutOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Configure the presentation layout. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Presenter">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.PresenterLayoutOptions Presenter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.PresenterLayoutOptions Presenter" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Presenter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Presenter As PresenterLayoutOptions" />
+      <MemberSignature Language="F#" Value="member this.Presenter : Azure.Communication.MediaComposition.PresenterLayoutOptions with get, set" Usage="Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Presenter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.PresenterLayoutOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Configure the presenter layout. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resolution">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.Models.LayoutResolution Resolution { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.Models.LayoutResolution Resolution" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Resolution" />
+      <MemberSignature Language="VB.NET" Value="Public Property Resolution As LayoutResolution" />
+      <MemberSignature Language="F#" Value="member this.Resolution : Azure.Communication.MediaComposition.Models.LayoutResolution with get, set" Usage="Azure.Communication.MediaComposition.Models.MediaCompositionLayout.Resolution" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.Models.LayoutResolution</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The dimensions of the scene or objects in the scene. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

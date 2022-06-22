@@ -1,0 +1,63 @@
+<Type Name="MicrosoftTeamsUserIdentifierModel" FullName="Azure.Communication.MediaComposition.MicrosoftTeamsUserIdentifierModel">
+  <TypeSignature Language="C#" Value="public class MicrosoftTeamsUserIdentifierModel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MicrosoftTeamsUserIdentifierModel extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.MediaComposition.MicrosoftTeamsUserIdentifierModel" />
+  <TypeSignature Language="VB.NET" Value="Public Class MicrosoftTeamsUserIdentifierModel" />
+  <TypeSignature Language="F#" Value="type MicrosoftTeamsUserIdentifierModel = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> "A Microsoft Teams user. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MicrosoftTeamsUserIdentifierModel (string userId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string userId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.MicrosoftTeamsUserIdentifierModel.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (userId As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.MediaComposition.MicrosoftTeamsUserIdentifierModel : string -&gt; Azure.Communication.MediaComposition.MicrosoftTeamsUserIdentifierModel" Usage="new Azure.Communication.MediaComposition.MicrosoftTeamsUserIdentifierModel userId" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userId"> The Id of the Microsoft Teams user. </param>
+        <summary> Initializes a new instance of MicrosoftTeamsUserIdentifierModel. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="userId" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public string UserId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.MicrosoftTeamsUserIdentifierModel.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserId As String" />
+      <MemberSignature Language="F#" Value="member this.UserId : string with get, set" Usage="Azure.Communication.MediaComposition.MicrosoftTeamsUserIdentifierModel.UserId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The Id of the Microsoft Teams user. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

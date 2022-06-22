@@ -53,7 +53,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Initializes a new instance of the <see cref="T:Azure.Messaging.EventGrid.EventGridPublisherClient" /> class for mocking.</summary>
+        <summary>Initalizes a new instance of the <see cref="T:Azure.Messaging.EventGrid.EventGridPublisherClient" /> class for mocking.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,7 +86,7 @@
       <Docs>
         <param name="endpoint">The topic endpoint. For example, "https://TOPIC-NAME.REGION-NAME-1.eventgrid.azure.net/api/events".</param>
         <param name="credential">The key credential used to authenticate with the service.</param>
-        <summary>Initializes a new instance of the <see cref="T:Azure.Messaging.EventGrid.EventGridPublisherClient" /> class.</summary>
+        <summary>Initalizes a new instance of the <see cref="T:Azure.Messaging.EventGrid.EventGridPublisherClient" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,7 +121,7 @@
         <param name="endpoint">The topic endpoint. For example, "https://TOPIC-NAME.REGION-NAME-1.eventgrid.azure.net/api/events".</param>
         <param name="credential">The key credential used to authenticate with the service.</param>
         <param name="options">The set of options to use for configuring the client.</param>
-        <summary>Initializes a new instance of the <see cref="T:Azure.Messaging.EventGrid.EventGridPublisherClient" /> class.</summary>
+        <summary>Initalizes a new instance of the <see cref="T:Azure.Messaging.EventGrid.EventGridPublisherClient" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -190,7 +190,7 @@
         <param name="endpoint">The topic endpoint. For example, "https://TOPIC-NAME.REGION-NAME-1.eventgrid.azure.net/api/events".</param>
         <param name="credential">The token credential used to authenticate with the service.</param>
         <param name="options">The set of options to use for configuring the client.</param>
-        <summary>Initializes a new instance of the <see cref="T:Azure.Messaging.EventGrid.EventGridPublisherClient" /> class.</summary>
+        <summary>Initalizes a new instance of the <see cref="T:Azure.Messaging.EventGrid.EventGridPublisherClient" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

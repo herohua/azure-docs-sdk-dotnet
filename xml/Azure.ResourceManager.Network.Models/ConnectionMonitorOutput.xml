@@ -54,18 +54,18 @@
       </Docs>
     </Member>
     <Member MemberName="WorkspaceResourceId">
-      <MemberSignature Language="C#" Value="public string WorkspaceResourceId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string WorkspaceResourceId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier WorkspaceResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier WorkspaceResourceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ConnectionMonitorOutput.WorkspaceResourceId" />
-      <MemberSignature Language="VB.NET" Value="Public Property WorkspaceResourceId As String" />
-      <MemberSignature Language="F#" Value="member this.WorkspaceResourceId : string with get, set" Usage="Azure.ResourceManager.Network.Models.ConnectionMonitorOutput.WorkspaceResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkspaceResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.WorkspaceResourceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Network.Models.ConnectionMonitorOutput.WorkspaceResourceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Log analytics workspace resource ID. </summary>

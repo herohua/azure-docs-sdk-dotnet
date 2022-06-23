@@ -41,13 +41,22 @@
         <AssemblyVersion>12.11.0.0</AssemblyVersion>
         <AssemblyVersion>12.12.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Azure.Storage.ClientSideEncryptionVersion</ReturnType>
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
         <summary>
-            1.0
+            1.0. This version is considered insecure. Applications are encouraged to migrate to
+            <see cref="F:Azure.Storage.ClientSideEncryptionVersion.V2_0" /> or to one of our server-side encryption solutions. See
+            <a href="https://techcommunity.microsoft.com/t5/azure-storage-blog/preview-azure-storage-updating-client-side-encryption-in-sdk-to/ba-p/3522620">this article</a>
+            for more details.
             </summary>
       </Docs>
     </Member>
@@ -68,7 +77,7 @@
       <MemberValue>2</MemberValue>
       <Docs>
         <summary>
-            2.0
+            2.0.
             </summary>
       </Docs>
     </Member>

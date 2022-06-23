@@ -48,7 +48,11 @@
         <ReturnType>Azure.ResourceManager.ServiceLinker.Models.AuthInfoBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> The authentication type. </summary>
+        <summary>
+            The authentication type.
+            Please note <see cref="T:Azure.ResourceManager.ServiceLinker.Models.AuthInfoBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.ServiceLinker.Models.SecretAuthInfo" />, <see cref="T:Azure.ResourceManager.ServiceLinker.Models.ServicePrincipalCertificateAuthInfo" />, <see cref="T:Azure.ResourceManager.ServiceLinker.Models.ServicePrincipalSecretAuthInfo" />, <see cref="T:Azure.ResourceManager.ServiceLinker.Models.SystemAssignedIdentityAuthInfo" /> and <see cref="T:Azure.ResourceManager.ServiceLinker.Models.UserAssignedIdentityAuthInfo" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,7 +172,11 @@
         <ReturnType>Azure.ResourceManager.ServiceLinker.Models.TargetServiceBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> The target service properties. </summary>
+        <summary>
+            The target service properties
+            Please note <see cref="T:Azure.ResourceManager.ServiceLinker.Models.TargetServiceBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.ServiceLinker.Models.AzureResource" />, <see cref="T:Azure.ResourceManager.ServiceLinker.Models.ConfluentBootstrapServer" /> and <see cref="T:Azure.ResourceManager.ServiceLinker.Models.ConfluentSchemaRegistry" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -38,11 +38,11 @@
       </Docs>
     </Member>
     <Member MemberName="VirtualNetworkLinkId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier VirtualNetworkLinkId { get; set; }" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier VirtualNetworkLinkId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier VirtualNetworkLinkId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DnsResolver.Models.VirtualNetworkDnsForwardingRuleset.VirtualNetworkLinkId" />
-      <MemberSignature Language="VB.NET" Value="Public Property VirtualNetworkLinkId As ResourceIdentifier" />
-      <MemberSignature Language="F#" Value="member this.VirtualNetworkLinkId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.DnsResolver.Models.VirtualNetworkDnsForwardingRuleset.VirtualNetworkLinkId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VirtualNetworkLinkId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.VirtualNetworkLinkId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.DnsResolver.Models.VirtualNetworkDnsForwardingRuleset.VirtualNetworkLinkId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>

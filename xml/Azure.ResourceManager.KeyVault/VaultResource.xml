@@ -273,6 +273,95 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetKeyVaultPrivateEndpointConnection">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt; GetKeyVaultPrivateEndpointConnection (string privateEndpointConnectionName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt; GetKeyVaultPrivateEndpointConnection(string privateEndpointConnectionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.VaultResource.GetKeyVaultPrivateEndpointConnection(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetKeyVaultPrivateEndpointConnection (privateEndpointConnectionName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of KeyVaultPrivateEndpointConnectionResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetKeyVaultPrivateEndpointConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt;&#xA;override this.GetKeyVaultPrivateEndpointConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt;" Usage="vaultResource.GetKeyVaultPrivateEndpointConnection (privateEndpointConnectionName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="privateEndpointConnectionName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="privateEndpointConnectionName"> Name of the private endpoint connection associated with the key vault. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the specified private endpoint connection associated with the key vault.
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}/privateEndpointConnections/{privateEndpointConnectionName}
+            Operation Id: PrivateEndpointConnections_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="privateEndpointConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="privateEndpointConnectionName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyVaultPrivateEndpointConnectionAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt;&gt; GetKeyVaultPrivateEndpointConnectionAsync (string privateEndpointConnectionName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt;&gt; GetKeyVaultPrivateEndpointConnectionAsync(string privateEndpointConnectionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.VaultResource.GetKeyVaultPrivateEndpointConnectionAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetKeyVaultPrivateEndpointConnectionAsync (privateEndpointConnectionName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of KeyVaultPrivateEndpointConnectionResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetKeyVaultPrivateEndpointConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt;&gt;&#xA;override this.GetKeyVaultPrivateEndpointConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt;&gt;" Usage="vaultResource.GetKeyVaultPrivateEndpointConnectionAsync (privateEndpointConnectionName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="privateEndpointConnectionName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="privateEndpointConnectionName"> Name of the private endpoint connection associated with the key vault. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the specified private endpoint connection associated with the key vault.
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}/privateEndpointConnections/{privateEndpointConnectionName}
+            Operation Id: PrivateEndpointConnections_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="privateEndpointConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="privateEndpointConnectionName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyVaultPrivateEndpointConnections">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionCollection GetKeyVaultPrivateEndpointConnections ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionCollection GetKeyVaultPrivateEndpointConnections() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.VaultResource.GetKeyVaultPrivateEndpointConnections" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetKeyVaultPrivateEndpointConnections () As KeyVaultPrivateEndpointConnectionCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetKeyVaultPrivateEndpointConnections : unit -&gt; Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionCollection&#xA;override this.GetKeyVaultPrivateEndpointConnections : unit -&gt; Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionCollection" Usage="vaultResource.GetKeyVaultPrivateEndpointConnections " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.KeyVault.KeyVaultPrivateEndpointConnectionCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of KeyVaultPrivateEndpointConnectionResources in the Vault. </summary>
+        <returns> An object representing collection of KeyVaultPrivateEndpointConnectionResources and their operations over a KeyVaultPrivateEndpointConnectionResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetPrivateEndpointConnection">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.KeyVault.PrivateEndpointConnectionResource&gt; GetPrivateEndpointConnection (string privateEndpointConnectionName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.KeyVault.PrivateEndpointConnectionResource&gt; GetPrivateEndpointConnection(string privateEndpointConnectionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -363,18 +452,18 @@
       </Docs>
     </Member>
     <Member MemberName="GetPrivateLinkResources">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt; GetPrivateLinkResources (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt; GetPrivateLinkResources(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt; GetPrivateLinkResources (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt; GetPrivateLinkResources(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.VaultResource.GetPrivateLinkResources(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPrivateLinkResources (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of PrivateLinkResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetPrivateLinkResources : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt;&#xA;override this.GetPrivateLinkResources : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt;" Usage="vaultResource.GetPrivateLinkResources cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPrivateLinkResources (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of PrivateLinkResourceData)" />
+      <MemberSignature Language="F#" Value="abstract member GetPrivateLinkResources : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt;&#xA;override this.GetPrivateLinkResources : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt;" Usage="vaultResource.GetPrivateLinkResources cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt;</ReturnType>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -386,23 +475,23 @@
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}/privateLinkResources
             Operation Id: PrivateLinkResources_ListByVault
             </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.KeyVault.Models.PrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrivateLinkResourcesAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt; GetPrivateLinkResourcesAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt; GetPrivateLinkResourcesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt; GetPrivateLinkResourcesAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt; GetPrivateLinkResourcesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.KeyVault.VaultResource.GetPrivateLinkResourcesAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPrivateLinkResourcesAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of PrivateLinkResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetPrivateLinkResourcesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt;&#xA;override this.GetPrivateLinkResourcesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt;" Usage="vaultResource.GetPrivateLinkResourcesAsync cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPrivateLinkResourcesAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of PrivateLinkResourceData)" />
+      <MemberSignature Language="F#" Value="abstract member GetPrivateLinkResourcesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt;&#xA;override this.GetPrivateLinkResourcesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt;" Usage="vaultResource.GetPrivateLinkResourcesAsync cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResource&gt;</ReturnType>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -414,7 +503,7 @@
             Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}/privateLinkResources
             Operation Id: PrivateLinkResources_ListByVault
             </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.KeyVault.Models.PrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.KeyVault.Models.PrivateLinkResourceData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

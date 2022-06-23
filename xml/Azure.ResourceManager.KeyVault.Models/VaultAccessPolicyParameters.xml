@@ -40,18 +40,18 @@
       </Docs>
     </Member>
     <Member MemberName="AccessPolicies">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.AccessPolicyEntry&gt; AccessPolicies { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.KeyVault.Models.AccessPolicyEntry&gt; AccessPolicies" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.VaultAccessPolicy&gt; AccessPolicies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.KeyVault.Models.VaultAccessPolicy&gt; AccessPolicies" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.KeyVault.Models.VaultAccessPolicyParameters.AccessPolicies" />
-      <MemberSignature Language="VB.NET" Value="Public Property AccessPolicies As IList(Of AccessPolicyEntry)" />
-      <MemberSignature Language="F#" Value="member this.AccessPolicies : System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.AccessPolicyEntry&gt; with get, set" Usage="Azure.ResourceManager.KeyVault.Models.VaultAccessPolicyParameters.AccessPolicies" />
+      <MemberSignature Language="VB.NET" Value="Public Property AccessPolicies As IList(Of VaultAccessPolicy)" />
+      <MemberSignature Language="F#" Value="member this.AccessPolicies : System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.VaultAccessPolicy&gt; with get, set" Usage="Azure.ResourceManager.KeyVault.Models.VaultAccessPolicyParameters.AccessPolicies" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.AccessPolicyEntry&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.KeyVault.Models.VaultAccessPolicy&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> An array of 0 to 16 identities that have access to the key vault. All identities in the array must use the same tenant ID as the key vault's tenant ID. </summary>
@@ -60,18 +60,18 @@
       </Docs>
     </Member>
     <Member MemberName="Location">
-      <MemberSignature Language="C#" Value="public string Location { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="C#" Value="public Azure.Core.AzureLocation? Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; Location" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.KeyVault.Models.VaultAccessPolicyParameters.Location" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As String" />
-      <MemberSignature Language="F#" Value="member this.Location : string" Usage="Azure.ResourceManager.KeyVault.Models.VaultAccessPolicyParameters.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As Nullable(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="member this.Location : Nullable&lt;Azure.Core.AzureLocation&gt;" Usage="Azure.ResourceManager.KeyVault.Models.VaultAccessPolicyParameters.Location" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.Core.AzureLocation&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resource type of the access policy. </summary>

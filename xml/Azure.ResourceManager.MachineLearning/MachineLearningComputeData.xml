@@ -54,18 +54,18 @@
       </Docs>
     </Member>
     <Member MemberName="Location">
-      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="C#" Value="public Azure.Core.AzureLocation? Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; Location" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.MachineLearning.MachineLearningComputeData.Location" />
-      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
-      <MemberSignature Language="F#" Value="member this.Location : string with get, set" Usage="Azure.ResourceManager.MachineLearning.MachineLearningComputeData.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As Nullable(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="member this.Location : Nullable&lt;Azure.Core.AzureLocation&gt; with get, set" Usage="Azure.ResourceManager.MachineLearning.MachineLearningComputeData.Location" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.Core.AzureLocation&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies the location of the resource. </summary>
@@ -88,7 +88,11 @@
         <ReturnType>Azure.ResourceManager.MachineLearning.Models.Compute</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Compute properties. </summary>
+        <summary>
+            Compute properties
+            Please note <see cref="T:Azure.ResourceManager.MachineLearning.Models.Compute" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.MachineLearning.Models.AksCompute" />, <see cref="T:Azure.ResourceManager.MachineLearning.Models.AmlCompute" />, <see cref="T:Azure.ResourceManager.MachineLearning.Models.ComputeInstance" />, <see cref="T:Azure.ResourceManager.MachineLearning.Models.DataFactoryCompute" />, <see cref="T:Azure.ResourceManager.MachineLearning.Models.DataLakeAnalyticsCompute" />, <see cref="T:Azure.ResourceManager.MachineLearning.Models.DatabricksCompute" />, <see cref="T:Azure.ResourceManager.MachineLearning.Models.HDInsightCompute" />, <see cref="T:Azure.ResourceManager.MachineLearning.Models.KubernetesCompute" />, <see cref="T:Azure.ResourceManager.MachineLearning.Models.SynapseSparkCompute" /> and <see cref="T:Azure.ResourceManager.MachineLearning.Models.VirtualMachineCompute" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -108,7 +108,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.BackupShortTermRetentionPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.BackupShortTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.BackupShortTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.BackupShortTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.ShortTermRetentionPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.BackupShortTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.BackupShortTermRetentionPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -242,7 +242,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.DatabaseBlobAuditingPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.DatabaseBlobAuditingPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.DatabaseBlobAuditingPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.DatabaseBlobAuditingPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.DatabaseBlobAuditingPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.DatabaseBlobAuditingPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -271,7 +271,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.DatabaseSecurityAlertPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.DatabaseSecurityAlertPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.DatabaseSecurityAlertPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.DatabaseSecurityAlertPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.SecurityAlertPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.DatabaseSecurityAlertPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.DatabaseSecurityAlertPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -329,7 +329,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.DataWarehouseUserActivitiesResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.DataWarehouseUserActivitiesResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.DataWarehouseUserActivitiesResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.DataWarehouseUserActivitiesResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.DataWarehouseUserActivityName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.DataWarehouseUserActivitiesResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.DataWarehouseUserActivitiesResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -611,7 +611,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.Sql.EncryptionProtectorResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.EncryptionProtectorResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Sql.EncryptionProtectorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.EncryptionProtectorResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.EncryptionProtectorName)" /> to create an <see cref="T:Azure.ResourceManager.Sql.EncryptionProtectorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.EncryptionProtectorResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -669,7 +669,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.Sql.ExtendedDatabaseBlobAuditingPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ExtendedDatabaseBlobAuditingPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Sql.ExtendedDatabaseBlobAuditingPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ExtendedDatabaseBlobAuditingPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName)" /> to create an <see cref="T:Azure.ResourceManager.Sql.ExtendedDatabaseBlobAuditingPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ExtendedDatabaseBlobAuditingPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -698,7 +698,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.Sql.ExtendedServerBlobAuditingPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ExtendedServerBlobAuditingPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Sql.ExtendedServerBlobAuditingPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ExtendedServerBlobAuditingPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName)" /> to create an <see cref="T:Azure.ResourceManager.Sql.ExtendedServerBlobAuditingPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ExtendedServerBlobAuditingPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -785,7 +785,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.GeoBackupPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.GeoBackupPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.GeoBackupPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.GeoBackupPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.GeoBackupPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.GeoBackupPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.GeoBackupPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -1250,7 +1250,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.JobVersionResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.JobVersionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.JobVersionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.JobVersionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)" /> to create a <see cref="T:Azure.ResourceManager.Sql.JobVersionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.JobVersionResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -1279,7 +1279,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.LedgerDigestUploadsResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.LedgerDigestUploadsResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.LedgerDigestUploadsResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.LedgerDigestUploadsResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.LedgerDigestUploadsName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.LedgerDigestUploadsResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.LedgerDigestUploadsResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -1308,7 +1308,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.LogicalDatabaseTransparentDataEncryptionResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.LogicalDatabaseTransparentDataEncryptionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.LogicalDatabaseTransparentDataEncryptionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.LogicalDatabaseTransparentDataEncryptionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.TransparentDataEncryptionName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.LogicalDatabaseTransparentDataEncryptionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.LogicalDatabaseTransparentDataEncryptionResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -1993,7 +1993,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.LongTermRetentionPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.LongTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.LongTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.LongTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.LongTermRetentionPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.LongTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.LongTermRetentionPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2109,7 +2109,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.RestoreDetailsName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2138,7 +2138,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedDatabaseSecurityAlertPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedDatabaseSecurityAlertPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedDatabaseSecurityAlertPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedDatabaseSecurityAlertPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.SecurityAlertPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedDatabaseSecurityAlertPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedDatabaseSecurityAlertPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2205,7 +2205,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceAdministratorResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceAdministratorResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceAdministratorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceAdministratorResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.AdministratorName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceAdministratorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceAdministratorResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2272,7 +2272,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.AuthenticationName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2301,7 +2301,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseBackupShortTermRetentionPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseBackupShortTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseBackupShortTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseBackupShortTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.ManagedShortTermRetentionPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseBackupShortTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseBackupShortTermRetentionPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2388,7 +2388,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseSchemaTableColumnSensitivityLabelResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseSchemaTableColumnSensitivityLabelResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseSchemaTableColumnSensitivityLabelResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseSchemaTableColumnSensitivityLabelResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.SensitivityLabelSource)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseSchemaTableColumnSensitivityLabelResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseSchemaTableColumnSensitivityLabelResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2446,7 +2446,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2475,7 +2475,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentRuleBaselineResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentRuleBaselineResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentRuleBaselineResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentRuleBaselineResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentPolicyBaselineName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentRuleBaselineResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentRuleBaselineResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2504,7 +2504,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentScanResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentScanResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentScanResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentScanResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentScanResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceDatabaseVulnerabilityAssessmentScanResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2533,7 +2533,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.EncryptionProtectorName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2591,7 +2591,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceLongTermRetentionPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceLongTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceLongTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceLongTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.ManagedInstanceLongTermRetentionPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceLongTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceLongTermRetentionPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2620,7 +2620,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceOperationResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceOperationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceOperationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceOperationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.Guid)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceOperationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceOperationResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2824,7 +2824,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2853,7 +2853,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedRestorableDroppedDbBackupShortTermRetentionPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedRestorableDroppedDbBackupShortTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedRestorableDroppedDbBackupShortTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedRestorableDroppedDbBackupShortTermRetentionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.ManagedShortTermRetentionPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedRestorableDroppedDbBackupShortTermRetentionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedRestorableDroppedDbBackupShortTermRetentionPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2882,7 +2882,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.SecurityAlertPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -2911,7 +2911,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ManagedTransparentDataEncryptionResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedTransparentDataEncryptionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedTransparentDataEncryptionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ManagedTransparentDataEncryptionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.TransparentDataEncryptionName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ManagedTransparentDataEncryptionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ManagedTransparentDataEncryptionResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -3654,7 +3654,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerAzureADAdministratorResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerAzureADAdministratorResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerAzureADAdministratorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerAzureADAdministratorResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.AdministratorName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerAzureADAdministratorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerAzureADAdministratorResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -3683,7 +3683,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerAzureADOnlyAuthenticationResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerAzureADOnlyAuthenticationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerAzureADOnlyAuthenticationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerAzureADOnlyAuthenticationResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.AuthenticationName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerAzureADOnlyAuthenticationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerAzureADOnlyAuthenticationResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -3712,7 +3712,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerBlobAuditingPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerBlobAuditingPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerBlobAuditingPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerBlobAuditingPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.BlobAuditingPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerBlobAuditingPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerBlobAuditingPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -3770,7 +3770,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerConnectionPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerConnectionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerConnectionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerConnectionPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.ConnectionPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerConnectionPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerConnectionPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -3886,7 +3886,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.SensitivityLabelSource)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -3944,7 +3944,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -3973,7 +3973,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentRuleBaselineResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentRuleBaselineResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentRuleBaselineResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentRuleBaselineResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentPolicyBaselineName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentRuleBaselineResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentRuleBaselineResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -4002,7 +4002,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentScanResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentScanResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentScanResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentScanResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentScanResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseVulnerabilityAssessmentScanResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -4089,7 +4089,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Guid)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -4118,7 +4118,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Guid,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -4147,7 +4147,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Guid,System.String,System.Guid)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -4205,7 +4205,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobVersionStepResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerJobAgentJobVersionStepResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobVersionStepResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerJobAgentJobVersionStepResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobVersionStepResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobVersionStepResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -4263,7 +4263,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerSecurityAlertPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerSecurityAlertPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerSecurityAlertPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerSecurityAlertPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.SecurityAlertPolicyName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerSecurityAlertPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerSecurityAlertPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
@@ -4456,7 +4456,7 @@
         <param name="id"> The resource ID of the resource to get. </param>
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Sql.ServerVulnerabilityAssessmentResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Sql.ServerVulnerabilityAssessmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerVulnerabilityAssessmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            You can use <see cref="M:Azure.ResourceManager.Sql.ServerVulnerabilityAssessmentResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.VulnerabilityAssessmentName)" /> to create a <see cref="T:Azure.ResourceManager.Sql.ServerVulnerabilityAssessmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
             </summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.ServerVulnerabilityAssessmentResource" /> object. </returns>
         <remarks>To be added.</remarks>

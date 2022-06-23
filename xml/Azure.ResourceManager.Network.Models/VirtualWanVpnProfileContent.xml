@@ -54,18 +54,18 @@
       </Docs>
     </Member>
     <Member MemberName="VpnServerConfigurationResourceId">
-      <MemberSignature Language="C#" Value="public string VpnServerConfigurationResourceId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string VpnServerConfigurationResourceId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier VpnServerConfigurationResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier VpnServerConfigurationResourceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.VirtualWanVpnProfileContent.VpnServerConfigurationResourceId" />
-      <MemberSignature Language="VB.NET" Value="Public Property VpnServerConfigurationResourceId As String" />
-      <MemberSignature Language="F#" Value="member this.VpnServerConfigurationResourceId : string with get, set" Usage="Azure.ResourceManager.Network.Models.VirtualWanVpnProfileContent.VpnServerConfigurationResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property VpnServerConfigurationResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.VpnServerConfigurationResourceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Network.Models.VirtualWanVpnProfileContent.VpnServerConfigurationResourceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> VpnServerConfiguration partial resource uri with which VirtualWan is associated to. </summary>

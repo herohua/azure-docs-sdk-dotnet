@@ -18,6 +18,32 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WorkspaceInfo (string id, Azure.Core.AzureLocation location, string customerId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, valuetype Azure.Core.AzureLocation location, string customerId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Monitor.Models.WorkspaceInfo.#ctor(System.String,Azure.Core.AzureLocation,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, location As AzureLocation, customerId As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Monitor.Models.WorkspaceInfo : string * Azure.Core.AzureLocation * string -&gt; Azure.ResourceManager.Monitor.Models.WorkspaceInfo" Usage="new Azure.ResourceManager.Monitor.Models.WorkspaceInfo (id, location, customerId)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="customerId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id"> Azure Resource Manager identifier of the Log Analytics Workspace. </param>
+        <param name="location"> Location of the Log Analytics workspace. </param>
+        <param name="customerId"> Log Analytics workspace identifier. </param>
+        <summary> Initializes a new instance of WorkspaceInfo. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="id" /> or <paramref name="customerId" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public WorkspaceInfo (string id, string location, string customerId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string location, string customerId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Monitor.Models.WorkspaceInfo.#ctor(System.String,System.String,System.String)" />
@@ -84,18 +110,18 @@
       </Docs>
     </Member>
     <Member MemberName="Location">
-      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="C#" Value="public Azure.Core.AzureLocation Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Core.AzureLocation Location" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Monitor.Models.WorkspaceInfo.Location" />
-      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
-      <MemberSignature Language="F#" Value="member this.Location : string with get, set" Usage="Azure.ResourceManager.Monitor.Models.WorkspaceInfo.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As AzureLocation" />
+      <MemberSignature Language="F#" Value="member this.Location : Azure.Core.AzureLocation with get, set" Usage="Azure.ResourceManager.Monitor.Models.WorkspaceInfo.Location" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Location of the Log Analytics workspace. </summary>

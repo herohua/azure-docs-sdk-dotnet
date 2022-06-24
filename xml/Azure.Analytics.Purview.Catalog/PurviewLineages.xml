@@ -75,30 +75,34 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>
-            Schema for <c>Response Body</c>:
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>AtlasLineageInfo</c>:
             <code>{
-              baseEntityGuid: string,
-              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;,
-              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;,
-              lineageDepth: number,
-              lineageWidth: number,
-              includeParent: boolean,
-              childrenCount: number,
-              lineageDirection: "INPUT" | "OUTPUT" | "BOTH",
+              baseEntityGuid: string, # Optional. The GUID of the base entity.
+              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;, # Optional. The GUID entity map.
+              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;, # Optional. The entity count in specific direction.
+              lineageDepth: number, # Optional. The depth of lineage.
+              lineageWidth: number, # Optional. The width of lineage.
+              includeParent: boolean, # Optional. True to return the parent of the base entity.
+              childrenCount: number, # Optional. The number of children node.
+              lineageDirection: "INPUT" | "OUTPUT" | "BOTH", # Optional. The enum of lineage direction.
               parentRelations: [
                 {
-                  childEntityId: string,
-                  relationshipId: string,
-                  parentEntityId: string
+                  childEntityId: string, # Optional. The GUID of child entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  parentEntityId: string, # Optional. The GUID of parent entity.
                 }
-              ],
+              ], # Optional. An array of parentRelations relations.
               relations: [
                 {
-                  fromEntityId: string,
-                  relationshipId: string,
-                  toEntityId: string
+                  fromEntityId: string, # Optional. The GUID of from-entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  toEntityId: string, # Optional. The GUID of to-entity.
                 }
-              ]
+              ], # Optional. An array of lineage relations.
             }
             </code></remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -149,30 +153,34 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>
-            Schema for <c>Response Body</c>:
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>AtlasLineageInfo</c>:
             <code>{
-              baseEntityGuid: string,
-              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;,
-              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;,
-              lineageDepth: number,
-              lineageWidth: number,
-              includeParent: boolean,
-              childrenCount: number,
-              lineageDirection: "INPUT" | "OUTPUT" | "BOTH",
+              baseEntityGuid: string, # Optional. The GUID of the base entity.
+              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;, # Optional. The GUID entity map.
+              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;, # Optional. The entity count in specific direction.
+              lineageDepth: number, # Optional. The depth of lineage.
+              lineageWidth: number, # Optional. The width of lineage.
+              includeParent: boolean, # Optional. True to return the parent of the base entity.
+              childrenCount: number, # Optional. The number of children node.
+              lineageDirection: "INPUT" | "OUTPUT" | "BOTH", # Optional. The enum of lineage direction.
               parentRelations: [
                 {
-                  childEntityId: string,
-                  relationshipId: string,
-                  parentEntityId: string
+                  childEntityId: string, # Optional. The GUID of child entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  parentEntityId: string, # Optional. The GUID of parent entity.
                 }
-              ],
+              ], # Optional. An array of parentRelations relations.
               relations: [
                 {
-                  fromEntityId: string,
-                  relationshipId: string,
-                  toEntityId: string
+                  fromEntityId: string, # Optional. The GUID of from-entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  toEntityId: string, # Optional. The GUID of to-entity.
                 }
-              ]
+              ], # Optional. An array of lineage relations.
             }
             </code></remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -215,37 +223,34 @@
         <summary> Get lineage info of the entity specified by GUID. </summary>
         <returns>To be added.</returns>
         <remarks>
-            Schema for <c>Response Body</c>:
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>AtlasLineageInfo</c>:
             <code>{
-              baseEntityGuid: string,
-              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;,
-              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;,
-              lineageDepth: number,
-              lineageWidth: number,
-              includeParent: boolean,
-              childrenCount: number,
-              lineageDirection: "INPUT" | "OUTPUT" | "BOTH",
+              baseEntityGuid: string, # Optional. The GUID of the base entity.
+              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;, # Optional. The GUID entity map.
+              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;, # Optional. The entity count in specific direction.
+              lineageDepth: number, # Optional. The depth of lineage.
+              lineageWidth: number, # Optional. The width of lineage.
+              includeParent: boolean, # Optional. True to return the parent of the base entity.
+              childrenCount: number, # Optional. The number of children node.
+              lineageDirection: "INPUT" | "OUTPUT" | "BOTH", # Optional. The enum of lineage direction.
               parentRelations: [
                 {
-                  childEntityId: string,
-                  relationshipId: string,
-                  parentEntityId: string
+                  childEntityId: string, # Optional. The GUID of child entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  parentEntityId: string, # Optional. The GUID of parent entity.
                 }
-              ],
+              ], # Optional. An array of parentRelations relations.
               relations: [
                 {
-                  fromEntityId: string,
-                  relationshipId: string,
-                  toEntityId: string
+                  fromEntityId: string, # Optional. The GUID of from-entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  toEntityId: string, # Optional. The GUID of to-entity.
                 }
-              ]
-            }
-            </code>
-            Schema for <c>Response Error</c>:
-            <code>{
-              requestId: string,
-              errorCode: string,
-              errorMessage: string
+              ], # Optional. An array of lineage relations.
             }
             </code></remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -288,37 +293,34 @@
         <summary> Get lineage info of the entity specified by GUID. </summary>
         <returns>To be added.</returns>
         <remarks>
-            Schema for <c>Response Body</c>:
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>AtlasLineageInfo</c>:
             <code>{
-              baseEntityGuid: string,
-              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;,
-              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;,
-              lineageDepth: number,
-              lineageWidth: number,
-              includeParent: boolean,
-              childrenCount: number,
-              lineageDirection: "INPUT" | "OUTPUT" | "BOTH",
+              baseEntityGuid: string, # Optional. The GUID of the base entity.
+              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;, # Optional. The GUID entity map.
+              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;, # Optional. The entity count in specific direction.
+              lineageDepth: number, # Optional. The depth of lineage.
+              lineageWidth: number, # Optional. The width of lineage.
+              includeParent: boolean, # Optional. True to return the parent of the base entity.
+              childrenCount: number, # Optional. The number of children node.
+              lineageDirection: "INPUT" | "OUTPUT" | "BOTH", # Optional. The enum of lineage direction.
               parentRelations: [
                 {
-                  childEntityId: string,
-                  relationshipId: string,
-                  parentEntityId: string
+                  childEntityId: string, # Optional. The GUID of child entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  parentEntityId: string, # Optional. The GUID of parent entity.
                 }
-              ],
+              ], # Optional. An array of parentRelations relations.
               relations: [
                 {
-                  fromEntityId: string,
-                  relationshipId: string,
-                  toEntityId: string
+                  fromEntityId: string, # Optional. The GUID of from-entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  toEntityId: string, # Optional. The GUID of to-entity.
                 }
-              ]
-            }
-            </code>
-            Schema for <c>Response Error</c>:
-            <code>{
-              requestId: string,
-              errorCode: string,
-              errorMessage: string
+              ], # Optional. An array of lineage relations.
             }
             </code></remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -359,37 +361,34 @@
         <summary> Return immediate next page lineage info about entity with pagination. </summary>
         <returns>To be added.</returns>
         <remarks>
-            Schema for <c>Response Body</c>:
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>AtlasLineageInfo</c>:
             <code>{
-              baseEntityGuid: string,
-              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;,
-              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;,
-              lineageDepth: number,
-              lineageWidth: number,
-              includeParent: boolean,
-              childrenCount: number,
-              lineageDirection: "INPUT" | "OUTPUT" | "BOTH",
+              baseEntityGuid: string, # Optional. The GUID of the base entity.
+              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;, # Optional. The GUID entity map.
+              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;, # Optional. The entity count in specific direction.
+              lineageDepth: number, # Optional. The depth of lineage.
+              lineageWidth: number, # Optional. The width of lineage.
+              includeParent: boolean, # Optional. True to return the parent of the base entity.
+              childrenCount: number, # Optional. The number of children node.
+              lineageDirection: "INPUT" | "OUTPUT" | "BOTH", # Optional. The enum of lineage direction.
               parentRelations: [
                 {
-                  childEntityId: string,
-                  relationshipId: string,
-                  parentEntityId: string
+                  childEntityId: string, # Optional. The GUID of child entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  parentEntityId: string, # Optional. The GUID of parent entity.
                 }
-              ],
+              ], # Optional. An array of parentRelations relations.
               relations: [
                 {
-                  fromEntityId: string,
-                  relationshipId: string,
-                  toEntityId: string
+                  fromEntityId: string, # Optional. The GUID of from-entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  toEntityId: string, # Optional. The GUID of to-entity.
                 }
-              ]
-            }
-            </code>
-            Schema for <c>Response Error</c>:
-            <code>{
-              requestId: string,
-              errorCode: string,
-              errorMessage: string
+              ], # Optional. An array of lineage relations.
             }
             </code></remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -430,37 +429,34 @@
         <summary> Return immediate next page lineage info about entity with pagination. </summary>
         <returns>To be added.</returns>
         <remarks>
-            Schema for <c>Response Body</c>:
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>AtlasLineageInfo</c>:
             <code>{
-              baseEntityGuid: string,
-              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;,
-              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;,
-              lineageDepth: number,
-              lineageWidth: number,
-              includeParent: boolean,
-              childrenCount: number,
-              lineageDirection: "INPUT" | "OUTPUT" | "BOTH",
+              baseEntityGuid: string, # Optional. The GUID of the base entity.
+              guidEntityMap: Dictionary&lt;string, AtlasEntityHeader&gt;, # Optional. The GUID entity map.
+              widthCounts: Dictionary&lt;string, Dictionary&lt;string, AnyObject&gt;&gt;, # Optional. The entity count in specific direction.
+              lineageDepth: number, # Optional. The depth of lineage.
+              lineageWidth: number, # Optional. The width of lineage.
+              includeParent: boolean, # Optional. True to return the parent of the base entity.
+              childrenCount: number, # Optional. The number of children node.
+              lineageDirection: "INPUT" | "OUTPUT" | "BOTH", # Optional. The enum of lineage direction.
               parentRelations: [
                 {
-                  childEntityId: string,
-                  relationshipId: string,
-                  parentEntityId: string
+                  childEntityId: string, # Optional. The GUID of child entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  parentEntityId: string, # Optional. The GUID of parent entity.
                 }
-              ],
+              ], # Optional. An array of parentRelations relations.
               relations: [
                 {
-                  fromEntityId: string,
-                  relationshipId: string,
-                  toEntityId: string
+                  fromEntityId: string, # Optional. The GUID of from-entity.
+                  relationshipId: string, # Optional. The GUID of relationship.
+                  toEntityId: string, # Optional. The GUID of to-entity.
                 }
-              ]
-            }
-            </code>
-            Schema for <c>Response Error</c>:
-            <code>{
-              requestId: string,
-              errorCode: string,
-              errorMessage: string
+              ], # Optional. An array of lineage relations.
             }
             </code></remarks>
         <exception cref="T:System.ArgumentNullException">

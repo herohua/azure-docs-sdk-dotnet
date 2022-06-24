@@ -13,7 +13,11 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> The authentication info. </summary>
+    <summary>
+            The authentication info
+            Please note <see cref="T:Azure.ResourceManager.ServiceLinker.Models.AuthInfoBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.ServiceLinker.Models.SecretAuthInfo" />, <see cref="T:Azure.ResourceManager.ServiceLinker.Models.ServicePrincipalCertificateAuthInfo" />, <see cref="T:Azure.ResourceManager.ServiceLinker.Models.ServicePrincipalSecretAuthInfo" />, <see cref="T:Azure.ResourceManager.ServiceLinker.Models.SystemAssignedIdentityAuthInfo" /> and <see cref="T:Azure.ResourceManager.ServiceLinker.Models.UserAssignedIdentityAuthInfo" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

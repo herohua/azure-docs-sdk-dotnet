@@ -39,6 +39,44 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string serverName, string databaseName, string schemaName, string tableName, string columnName, Azure.ResourceManager.Sql.Models.SensitivityLabelSource sensitivityLabelSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string serverName, string databaseName, string schemaName, string tableName, string columnName, valuetype Azure.ResourceManager.Sql.Models.SensitivityLabelSource sensitivityLabelSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.SensitivityLabelSource)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, serverName As String, databaseName As String, schemaName As String, tableName As String, columnName As String, sensitivityLabelSource As SensitivityLabelSource) As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * string * string * string * string * Azure.ResourceManager.Sql.Models.SensitivityLabelSource -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, serverName, databaseName, schemaName, tableName, columnName, sensitivityLabelSource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionId" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="serverName" Type="System.String" />
+        <Parameter Name="databaseName" Type="System.String" />
+        <Parameter Name="schemaName" Type="System.String" />
+        <Parameter Name="tableName" Type="System.String" />
+        <Parameter Name="columnName" Type="System.String" />
+        <Parameter Name="sensitivityLabelSource" Type="Azure.ResourceManager.Sql.Models.SensitivityLabelSource" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionId">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="serverName">To be added.</param>
+        <param name="databaseName">To be added.</param>
+        <param name="schemaName">To be added.</param>
+        <param name="tableName">To be added.</param>
+        <param name="columnName">To be added.</param>
+        <param name="sensitivityLabelSource">To be added.</param>
+        <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateResourceIdentifier">
       <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string serverName, string databaseName, string schemaName, string tableName, string columnName, string sensitivityLabelSource);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string serverName, string databaseName, string schemaName, string tableName, string columnName, string sensitivityLabelSource) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ServerDatabaseSchemaTableColumnSensitivityLabelResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />

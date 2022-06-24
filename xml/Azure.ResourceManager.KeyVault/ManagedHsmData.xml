@@ -1,15 +1,15 @@
 <Type Name="ManagedHsmData" FullName="Azure.ResourceManager.KeyVault.ManagedHsmData">
-  <TypeSignature Language="C#" Value="public class ManagedHsmData : Azure.ResourceManager.KeyVault.Models.ManagedHsmResource" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ManagedHsmData extends Azure.ResourceManager.KeyVault.Models.ManagedHsmResource" />
+  <TypeSignature Language="C#" Value="public class ManagedHsmData : Azure.ResourceManager.Models.TrackedResourceData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ManagedHsmData extends Azure.ResourceManager.Models.TrackedResourceData" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.KeyVault.ManagedHsmData" />
-  <TypeSignature Language="VB.NET" Value="Public Class ManagedHsmData&#xA;Inherits ManagedHsmResource" />
-  <TypeSignature Language="F#" Value="type ManagedHsmData = class&#xA;    inherit ManagedHsmResource" />
+  <TypeSignature Language="VB.NET" Value="Public Class ManagedHsmData&#xA;Inherits TrackedResourceData" />
+  <TypeSignature Language="F#" Value="type ManagedHsmData = class&#xA;    inherit TrackedResourceData" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.ResourceManager.KeyVault.Models.ManagedHsmResource</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -53,6 +53,26 @@
       </ReturnValue>
       <Docs>
         <summary> Properties of the managed HSM. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sku">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.KeyVault.Models.ManagedHsmSku Sku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.KeyVault.Models.ManagedHsmSku Sku" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.KeyVault.ManagedHsmData.Sku" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sku As ManagedHsmSku" />
+      <MemberSignature Language="F#" Value="member this.Sku : Azure.ResourceManager.KeyVault.Models.ManagedHsmSku with get, set" Usage="Azure.ResourceManager.KeyVault.ManagedHsmData.Sku" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.KeyVault</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.KeyVault.Models.ManagedHsmSku</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> SKU details. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

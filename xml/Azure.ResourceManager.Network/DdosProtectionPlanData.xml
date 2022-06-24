@@ -38,18 +38,18 @@
       </Docs>
     </Member>
     <Member MemberName="Etag">
-      <MemberSignature Language="C#" Value="public string Etag { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Etag" />
+      <MemberSignature Language="C#" Value="public Azure.ETag? Etag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; Etag" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.DdosProtectionPlanData.Etag" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Etag As String" />
-      <MemberSignature Language="F#" Value="member this.Etag : string" Usage="Azure.ResourceManager.Network.DdosProtectionPlanData.Etag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Etag As Nullable(Of ETag)" />
+      <MemberSignature Language="F#" Value="member this.Etag : Nullable&lt;Azure.ETag&gt;" Usage="Azure.ResourceManager.Network.DdosProtectionPlanData.Etag" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ETag&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> A unique read-only string that changes whenever the resource is updated. </summary>
@@ -58,18 +58,18 @@
       </Docs>
     </Member>
     <Member MemberName="ProvisioningState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.ProvisioningState? ProvisioningState { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.ProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.NetworkProvisioningState? ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt; ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.DdosProtectionPlanData.ProvisioningState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of ProvisioningState)" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.ProvisioningState&gt;" Usage="Azure.ResourceManager.Network.DdosProtectionPlanData.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of NetworkProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;" Usage="Azure.ResourceManager.Network.DdosProtectionPlanData.ProvisioningState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.ProvisioningState&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The provisioning state of the DDoS protection plan resource. </summary>
@@ -78,18 +78,18 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceGuid">
-      <MemberSignature Language="C#" Value="public string ResourceGuid { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ResourceGuid" />
+      <MemberSignature Language="C#" Value="public Guid? ResourceGuid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; ResourceGuid" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.DdosProtectionPlanData.ResourceGuid" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As String" />
-      <MemberSignature Language="F#" Value="member this.ResourceGuid : string" Usage="Azure.ResourceManager.Network.DdosProtectionPlanData.ResourceGuid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.ResourceGuid : Nullable&lt;Guid&gt;" Usage="Azure.ResourceManager.Network.DdosProtectionPlanData.ResourceGuid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resource GUID property of the DDoS protection plan resource. It uniquely identifies the resource, even if the user changes its name or migrate the resource across subscriptions or resource groups. </summary>

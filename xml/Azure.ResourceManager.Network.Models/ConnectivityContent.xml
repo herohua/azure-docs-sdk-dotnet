@@ -102,18 +102,18 @@
       </Docs>
     </Member>
     <Member MemberName="Protocol">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.Protocol? Protocol { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.Protocol&gt; Protocol" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.NetworkWatcherProtocol? Protocol { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.NetworkWatcherProtocol&gt; Protocol" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ConnectivityContent.Protocol" />
-      <MemberSignature Language="VB.NET" Value="Public Property Protocol As Nullable(Of Protocol)" />
-      <MemberSignature Language="F#" Value="member this.Protocol : Nullable&lt;Azure.ResourceManager.Network.Models.Protocol&gt; with get, set" Usage="Azure.ResourceManager.Network.Models.ConnectivityContent.Protocol" />
+      <MemberSignature Language="VB.NET" Value="Public Property Protocol As Nullable(Of NetworkWatcherProtocol)" />
+      <MemberSignature Language="F#" Value="member this.Protocol : Nullable&lt;Azure.ResourceManager.Network.Models.NetworkWatcherProtocol&gt; with get, set" Usage="Azure.ResourceManager.Network.Models.ConnectivityContent.Protocol" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.Protocol&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.NetworkWatcherProtocol&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Network protocol. </summary>

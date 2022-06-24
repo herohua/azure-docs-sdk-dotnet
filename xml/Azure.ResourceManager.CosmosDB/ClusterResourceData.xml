@@ -1,15 +1,15 @@
 <Type Name="ClusterResourceData" FullName="Azure.ResourceManager.CosmosDB.ClusterResourceData">
-  <TypeSignature Language="C#" Value="public class ClusterResourceData : Azure.ResourceManager.CosmosDB.Models.ManagedCassandraARMResourceProperties" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClusterResourceData extends Azure.ResourceManager.CosmosDB.Models.ManagedCassandraARMResourceProperties" />
+  <TypeSignature Language="C#" Value="public class ClusterResourceData : Azure.ResourceManager.Models.TrackedResourceData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClusterResourceData extends Azure.ResourceManager.Models.TrackedResourceData" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.CosmosDB.ClusterResourceData" />
-  <TypeSignature Language="VB.NET" Value="Public Class ClusterResourceData&#xA;Inherits ManagedCassandraARMResourceProperties" />
-  <TypeSignature Language="F#" Value="type ClusterResourceData = class&#xA;    inherit ManagedCassandraARMResourceProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClusterResourceData&#xA;Inherits TrackedResourceData" />
+  <TypeSignature Language="F#" Value="type ClusterResourceData = class&#xA;    inherit TrackedResourceData" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.ResourceManager.CosmosDB.Models.ManagedCassandraARMResourceProperties</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -34,6 +34,26 @@
       <Docs>
         <param name="location"> The location. </param>
         <summary> Initializes a new instance of ClusterResourceData. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Identity">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Models.SystemAssignedServiceIdentity Identity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Models.SystemAssignedServiceIdentity Identity" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.ClusterResourceData.Identity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Identity As SystemAssignedServiceIdentity" />
+      <MemberSignature Language="F#" Value="member this.Identity : Azure.ResourceManager.Models.SystemAssignedServiceIdentity with get, set" Usage="Azure.ResourceManager.CosmosDB.ClusterResourceData.Identity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Models.SystemAssignedServiceIdentity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Identity for the resource. </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

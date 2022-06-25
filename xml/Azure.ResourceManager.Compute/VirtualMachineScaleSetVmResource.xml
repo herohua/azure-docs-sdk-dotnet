@@ -286,6 +286,36 @@
       </Docs>
     </Member>
     <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt; Get (Azure.ResourceManager.Compute.Models.InstanceViewType? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt; Get(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.InstanceViewType&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource.Get(System.Nullable{Azure.ResourceManager.Compute.Models.InstanceViewType},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (Optional expand As Nullable(Of InstanceViewType) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of VirtualMachineScaleSetVmResource)" />
+      <MemberSignature Language="F#" Value="abstract member Get : Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&#xA;override this.Get : Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;" Usage="virtualMachineScaleSetVmResource.Get (expand, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' will retrieve the instance view of the virtual machine. 'UserData' will retrieve the UserData of the virtual machine. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets a virtual machine from a VM scale set.
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}
+            Operation Id: VirtualMachineScaleSetVMs_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt; Get (Azure.ResourceManager.Compute.Models.InstanceViewTypes? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt; Get(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource.Get(System.Nullable{Azure.ResourceManager.Compute.Models.InstanceViewTypes},System.Threading.CancellationToken)" />
@@ -301,6 +331,36 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' will retrieve the instance view of the virtual machine. 'UserData' will retrieve the UserData of the virtual machine. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets a virtual machine from a VM scale set.
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}
+            Operation Id: VirtualMachineScaleSetVMs_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt; GetAsync (Azure.ResourceManager.Compute.Models.InstanceViewType? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt; GetAsync(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.InstanceViewType&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource.GetAsync(System.Nullable{Azure.ResourceManager.Compute.Models.InstanceViewType},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (Optional expand As Nullable(Of InstanceViewType) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of VirtualMachineScaleSetVmResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;&#xA;override this.GetAsync : Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;" Usage="virtualMachineScaleSetVmResource.GetAsync (expand, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>

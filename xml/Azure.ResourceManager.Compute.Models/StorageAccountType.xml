@@ -17,7 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary> Specifies the storage account type to be used to store the image. This property is not updatable. </summary>
+    <summary> Specifies the storage account type for the managed disk. Managed OS disk storage account type can only be set when you create the scale set. NOTE: UltraSSD_LRS can only be used with data disks. It cannot be used with OS Disk. Standard_LRS uses Standard HDD. StandardSSD_LRS uses Standard SSD. Premium_LRS uses Premium SSD. UltraSSD_LRS uses Ultra disk. Premium_ZRS uses Premium SSD zone redundant storage. StandardSSD_ZRS uses Standard SSD zone redundant storage. For more information regarding disks supported for Windows Virtual Machines, refer to https://docs.microsoft.com/azure/virtual-machines/windows/disks-types and, for Linux Virtual Machines, refer to https://docs.microsoft.com/azure/virtual-machines/linux/disks-types. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -228,6 +228,46 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="PremiumV2LRS">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.StorageAccountType PremiumV2LRS { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.StorageAccountType PremiumV2LRS" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.StorageAccountType.PremiumV2LRS" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PremiumV2LRS As StorageAccountType" />
+      <MemberSignature Language="F#" Value="member this.PremiumV2LRS : Azure.ResourceManager.Compute.Models.StorageAccountType" Usage="Azure.ResourceManager.Compute.Models.StorageAccountType.PremiumV2LRS" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> PremiumV2_LRS. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PremiumZRS">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.StorageAccountType PremiumZRS { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.StorageAccountType PremiumZRS" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.StorageAccountType.PremiumZRS" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PremiumZRS As StorageAccountType" />
+      <MemberSignature Language="F#" Value="member this.PremiumZRS : Azure.ResourceManager.Compute.Models.StorageAccountType" Usage="Azure.ResourceManager.Compute.Models.StorageAccountType.PremiumZRS" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Premium_ZRS. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="StandardLRS">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.StorageAccountType StandardLRS { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.StorageAccountType StandardLRS" />
@@ -244,6 +284,46 @@
       </ReturnValue>
       <Docs>
         <summary> Standard_LRS. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardSsdLRS">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.StorageAccountType StandardSsdLRS { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.StorageAccountType StandardSsdLRS" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.StorageAccountType.StandardSsdLRS" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property StandardSsdLRS As StorageAccountType" />
+      <MemberSignature Language="F#" Value="member this.StandardSsdLRS : Azure.ResourceManager.Compute.Models.StorageAccountType" Usage="Azure.ResourceManager.Compute.Models.StorageAccountType.StandardSsdLRS" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> StandardSSD_LRS. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardSsdZRS">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.StorageAccountType StandardSsdZRS { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.StorageAccountType StandardSsdZRS" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.StorageAccountType.StandardSsdZRS" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property StandardSsdZRS As StorageAccountType" />
+      <MemberSignature Language="F#" Value="member this.StandardSsdZRS : Azure.ResourceManager.Compute.Models.StorageAccountType" Usage="Azure.ResourceManager.Compute.Models.StorageAccountType.StandardSsdZRS" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> StandardSSD_ZRS. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -288,6 +368,26 @@
         <returns>The fully qualified type name.</returns>
         <remarks>To be added.</remarks>
         <inheritdoc />
+      </Docs>
+    </Member>
+    <Member MemberName="UltraSsdLRS">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.Models.StorageAccountType UltraSsdLRS { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Compute.Models.StorageAccountType UltraSsdLRS" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.StorageAccountType.UltraSsdLRS" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UltraSsdLRS As StorageAccountType" />
+      <MemberSignature Language="F#" Value="member this.UltraSsdLRS : Azure.ResourceManager.Compute.Models.StorageAccountType" Usage="Azure.ResourceManager.Compute.Models.StorageAccountType.UltraSsdLRS" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StorageAccountType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> UltraSSD_LRS. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

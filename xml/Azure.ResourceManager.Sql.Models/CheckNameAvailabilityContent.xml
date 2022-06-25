@@ -60,18 +60,18 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceType">
-      <MemberSignature Language="C#" Value="public string ResourceType { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ResourceType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.Models.CheckNameAvailabilityResourceType ResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.Sql.Models.CheckNameAvailabilityResourceType ResourceType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Sql.Models.CheckNameAvailabilityContent.ResourceType" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceType As String" />
-      <MemberSignature Language="F#" Value="member this.ResourceType : string" Usage="Azure.ResourceManager.Sql.Models.CheckNameAvailabilityContent.ResourceType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceType As CheckNameAvailabilityResourceType" />
+      <MemberSignature Language="F#" Value="member this.ResourceType : Azure.ResourceManager.Sql.Models.CheckNameAvailabilityResourceType" Usage="Azure.ResourceManager.Sql.Models.CheckNameAvailabilityContent.ResourceType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.ResourceManager.Sql.Models.CheckNameAvailabilityResourceType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the resource type. </summary>

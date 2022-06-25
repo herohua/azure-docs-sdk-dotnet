@@ -1,15 +1,15 @@
 <Type Name="ActionGroupData" FullName="Azure.ResourceManager.Monitor.ActionGroupData">
-  <TypeSignature Language="C#" Value="public class ActionGroupData : Azure.ResourceManager.Monitor.Models.AzureResource" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ActionGroupData extends Azure.ResourceManager.Monitor.Models.AzureResource" />
+  <TypeSignature Language="C#" Value="public class ActionGroupData : Azure.ResourceManager.Models.TrackedResourceData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ActionGroupData extends Azure.ResourceManager.Models.TrackedResourceData" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Monitor.ActionGroupData" />
-  <TypeSignature Language="VB.NET" Value="Public Class ActionGroupData&#xA;Inherits AzureResource" />
-  <TypeSignature Language="F#" Value="type ActionGroupData = class&#xA;    inherit AzureResource" />
+  <TypeSignature Language="VB.NET" Value="Public Class ActionGroupData&#xA;Inherits TrackedResourceData" />
+  <TypeSignature Language="F#" Value="type ActionGroupData = class&#xA;    inherit TrackedResourceData" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.ResourceManager.Monitor.Models.AzureResource</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -197,6 +197,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Identity">
+      <MemberSignature Language="C#" Value="public string Identity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Identity" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Monitor.ActionGroupData.Identity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Identity As String" />
+      <MemberSignature Language="F#" Value="member this.Identity : string" Usage="Azure.ResourceManager.Monitor.ActionGroupData.Identity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Azure resource identity. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ItsmReceivers">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.Monitor.Models.ItsmReceiver&gt; ItsmReceivers { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.Monitor.Models.ItsmReceiver&gt; ItsmReceivers" />
@@ -213,6 +233,26 @@
       </ReturnValue>
       <Docs>
         <summary> The list of ITSM receivers that are part of this action group. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public string Kind { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Kind" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Monitor.ActionGroupData.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Kind As String" />
+      <MemberSignature Language="F#" Value="member this.Kind : string" Usage="Azure.ResourceManager.Monitor.ActionGroupData.Kind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Azure resource kind. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

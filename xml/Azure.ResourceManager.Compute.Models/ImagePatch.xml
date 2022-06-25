@@ -34,18 +34,18 @@
       </Docs>
     </Member>
     <Member MemberName="HyperVGeneration">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.HyperVGenerationTypes? HyperVGeneration { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.HyperVGenerationTypes&gt; HyperVGeneration" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.HyperVGeneration? HyperVGeneration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.HyperVGeneration&gt; HyperVGeneration" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.ImagePatch.HyperVGeneration" />
-      <MemberSignature Language="VB.NET" Value="Public Property HyperVGeneration As Nullable(Of HyperVGenerationTypes)" />
-      <MemberSignature Language="F#" Value="member this.HyperVGeneration : Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGenerationTypes&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.ImagePatch.HyperVGeneration" />
+      <MemberSignature Language="VB.NET" Value="Public Property HyperVGeneration As Nullable(Of HyperVGeneration)" />
+      <MemberSignature Language="F#" Value="member this.HyperVGeneration : Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGeneration&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.ImagePatch.HyperVGeneration" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGenerationTypes&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGeneration&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies the HyperVGenerationType of the VirtualMachine created from the image. From API Version 2019-03-01 if the image source is a blob, then we need the user to specify the value, if the source is managed resource like disk or snapshot, we may require the user to specify the property if we cannot deduce it from the source managed resource. </summary>

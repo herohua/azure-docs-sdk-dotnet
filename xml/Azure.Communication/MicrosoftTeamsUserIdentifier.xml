@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Communication.CommunicationIdentifier</BaseTypeName>
@@ -31,6 +32,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="userId" Type="System.String" />
@@ -39,7 +41,7 @@
         <Parameter Name="rawId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="userId">Id of the Microsoft Teams user. If the user isn't anonymous, the id is the AAD object id of the user.</param>
+        <param name="userId">Id of the Microsoft Teams user. If the user isn't anonymous, the id is the Azure AD object id of the user.</param>
         <param name="isAnonymous">Set this to true if the user is anonymous, for example when joining a meeting with a share link.</param>
         <param name="cloud">The cloud that the Microsoft Team user belongs to. A null value translates to the Public cloud.</param>
         <param name="rawId">Raw id of the Microsoft Teams user, optional.</param>
@@ -67,6 +69,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Communication.CommunicationCloudEnvironment</ReturnType>
@@ -89,6 +92,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -116,6 +120,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -139,6 +144,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -161,6 +167,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -183,6 +190,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -206,12 +214,13 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The id of the Microsoft Teams user. If the user isn't anonymous, the id is the AAD object id of the user.</summary>
+        <summary>The id of the Microsoft Teams user. If the user isn't anonymous, the id is the Azure AD object id of the user.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,0 +1,77 @@
+<Type Name="StatusLevelType" FullName="Azure.ResourceManager.Compute.Models.StatusLevelType">
+  <TypeSignature Language="C#" Value="public enum StatusLevelType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StatusLevelType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Compute.Models.StatusLevelType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum StatusLevelType" />
+  <TypeSignature Language="F#" Value="type StatusLevelType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary> The level code. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="Error" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.ResourceManager.Compute.Models.StatusLevelType Error = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.Compute.Models.StatusLevelType.Error" />
+      <MemberSignature Language="VB.NET" Value="Error" />
+      <MemberSignature Language="F#" Value="Error = 2" Usage="Azure.ResourceManager.Compute.Models.StatusLevelType.Error" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StatusLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary> Error. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Info">
+      <MemberSignature Language="C#" Value="Info" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.ResourceManager.Compute.Models.StatusLevelType Info = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.Compute.Models.StatusLevelType.Info" />
+      <MemberSignature Language="VB.NET" Value="Info" />
+      <MemberSignature Language="F#" Value="Info = 0" Usage="Azure.ResourceManager.Compute.Models.StatusLevelType.Info" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StatusLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary> Info. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Warning">
+      <MemberSignature Language="C#" Value="Warning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.ResourceManager.Compute.Models.StatusLevelType Warning = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.Compute.Models.StatusLevelType.Warning" />
+      <MemberSignature Language="VB.NET" Value="Warning" />
+      <MemberSignature Language="F#" Value="Warning = 1" Usage="Azure.ResourceManager.Compute.Models.StatusLevelType.Warning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.StatusLevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary> Warning. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

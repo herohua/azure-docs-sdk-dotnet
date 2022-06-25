@@ -39,6 +39,38 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string managedInstanceName, string databaseName, Azure.ResourceManager.Sql.Models.RestoreDetailsName restoreDetailsName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string managedInstanceName, string databaseName, valuetype Azure.ResourceManager.Sql.Models.RestoreDetailsName restoreDetailsName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,Azure.ResourceManager.Sql.Models.RestoreDetailsName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, managedInstanceName As String, databaseName As String, restoreDetailsName As RestoreDetailsName) As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * string * Azure.ResourceManager.Sql.Models.RestoreDetailsName -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, managedInstanceName, databaseName, restoreDetailsName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionId" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="managedInstanceName" Type="System.String" />
+        <Parameter Name="databaseName" Type="System.String" />
+        <Parameter Name="restoreDetailsName" Type="Azure.ResourceManager.Sql.Models.RestoreDetailsName" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionId">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="managedInstanceName">To be added.</param>
+        <param name="databaseName">To be added.</param>
+        <param name="restoreDetailsName">To be added.</param>
+        <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateResourceIdentifier">
       <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string managedInstanceName, string databaseName, string restoreDetailsName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string managedInstanceName, string databaseName, string restoreDetailsName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedDatabaseRestoreDetailsResultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" />

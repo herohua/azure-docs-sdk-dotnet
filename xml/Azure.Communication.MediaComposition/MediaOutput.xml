@@ -1,0 +1,157 @@
+<Type Name="MediaOutput" FullName="Azure.Communication.MediaComposition.MediaOutput">
+  <TypeSignature Language="C#" Value="public class MediaOutput" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaOutput extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.MediaComposition.MediaOutput" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaOutput" />
+  <TypeSignature Language="F#" Value="type MediaOutput = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Media output to be used by the composition. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaOutput ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.MediaOutput.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of MediaOutput. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupCall">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.GroupCall GroupCall { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.GroupCall GroupCall" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.MediaOutput.GroupCall" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupCall As GroupCall" />
+      <MemberSignature Language="F#" Value="member this.GroupCall : Azure.Communication.MediaComposition.GroupCall with get, set" Usage="Azure.Communication.MediaComposition.MediaOutput.GroupCall" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.GroupCall</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Group call to be used as an input or output. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.MediaOutputType? Kind { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Communication.MediaComposition.MediaOutputType&gt; Kind" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.MediaOutput.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As Nullable(Of MediaOutputType)" />
+      <MemberSignature Language="F#" Value="member this.Kind : Nullable&lt;Azure.Communication.MediaComposition.MediaOutputType&gt; with get, set" Usage="Azure.Communication.MediaComposition.MediaOutput.Kind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Communication.MediaComposition.MediaOutputType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Kind of media output. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Room">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.GroupCall Room { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.GroupCall Room" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.MediaOutput.Room" />
+      <MemberSignature Language="VB.NET" Value="Public Property Room As GroupCall" />
+      <MemberSignature Language="F#" Value="member this.Room : Azure.Communication.MediaComposition.GroupCall with get, set" Usage="Azure.Communication.MediaComposition.MediaOutput.Room" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.GroupCall</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Group call to be used as an input or output. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rtmp">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.RtmpStream Rtmp { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.RtmpStream Rtmp" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.MediaOutput.Rtmp" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rtmp As RtmpStream" />
+      <MemberSignature Language="F#" Value="member this.Rtmp : Azure.Communication.MediaComposition.RtmpStream with get, set" Usage="Azure.Communication.MediaComposition.MediaOutput.Rtmp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.RtmpStream</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Rtmp stream to be used as an input or output. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Srt">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.SrtStream Srt { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.SrtStream Srt" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.MediaOutput.Srt" />
+      <MemberSignature Language="VB.NET" Value="Public Property Srt As SrtStream" />
+      <MemberSignature Language="F#" Value="member this.Srt : Azure.Communication.MediaComposition.SrtStream with get, set" Usage="Azure.Communication.MediaComposition.MediaOutput.Srt" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.SrtStream</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Srt stream to be used as an input or output. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TeamsMeeting">
+      <MemberSignature Language="C#" Value="public Azure.Communication.MediaComposition.TeamsMeeting TeamsMeeting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.MediaComposition.TeamsMeeting TeamsMeeting" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.MediaOutput.TeamsMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Property TeamsMeeting As TeamsMeeting" />
+      <MemberSignature Language="F#" Value="member this.TeamsMeeting : Azure.Communication.MediaComposition.TeamsMeeting with get, set" Usage="Azure.Communication.MediaComposition.MediaOutput.TeamsMeeting" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.TeamsMeeting</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> A Teams meeting to be used as an input or output. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,83 @@
+<Type Name="CustomLayoutOptions" FullName="Azure.Communication.MediaComposition.CustomLayoutOptions">
+  <TypeSignature Language="C#" Value="public class CustomLayoutOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CustomLayoutOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.MediaComposition.CustomLayoutOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class CustomLayoutOptions" />
+  <TypeSignature Language="F#" Value="type CustomLayoutOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Configure custom layout. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CustomLayoutOptions (System.Collections.Generic.IDictionary&lt;string,Azure.Communication.MediaComposition.InputGroup&gt; inputGroups);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, class Azure.Communication.MediaComposition.InputGroup&gt; inputGroups) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.CustomLayoutOptions.#ctor(System.Collections.Generic.IDictionary{System.String,Azure.Communication.MediaComposition.InputGroup})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (inputGroups As IDictionary(Of String, InputGroup))" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.MediaComposition.CustomLayoutOptions : System.Collections.Generic.IDictionary&lt;string, Azure.Communication.MediaComposition.InputGroup&gt; -&gt; Azure.Communication.MediaComposition.CustomLayoutOptions" Usage="new Azure.Communication.MediaComposition.CustomLayoutOptions inputGroups" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="inputGroups" Type="System.Collections.Generic.IDictionary&lt;System.String,Azure.Communication.MediaComposition.InputGroup&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="inputGroups"> Configure input groups of the layout. </param>
+        <summary> Initializes a new instance of CustomLayoutOptions. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="inputGroups" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="InputGroups">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Azure.Communication.MediaComposition.InputGroup&gt; InputGroups { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Azure.Communication.MediaComposition.InputGroup&gt; InputGroups" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.CustomLayoutOptions.InputGroups" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InputGroups As IDictionary(Of String, InputGroup)" />
+      <MemberSignature Language="F#" Value="member this.InputGroups : System.Collections.Generic.IDictionary&lt;string, Azure.Communication.MediaComposition.InputGroup&gt;" Usage="Azure.Communication.MediaComposition.CustomLayoutOptions.InputGroups" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Azure.Communication.MediaComposition.InputGroup&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Configure input groups of the layout. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Layers">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Azure.Communication.MediaComposition.Models.LayoutLayer&gt; Layers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Azure.Communication.MediaComposition.Models.LayoutLayer&gt; Layers" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.CustomLayoutOptions.Layers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Layers As IDictionary(Of String, LayoutLayer)" />
+      <MemberSignature Language="F#" Value="member this.Layers : System.Collections.Generic.IDictionary&lt;string, Azure.Communication.MediaComposition.Models.LayoutLayer&gt;" Usage="Azure.Communication.MediaComposition.CustomLayoutOptions.Layers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Azure.Communication.MediaComposition.Models.LayoutLayer&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Configure layer to control the z-position of input groups. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

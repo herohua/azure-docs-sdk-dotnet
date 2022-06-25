@@ -38,18 +38,18 @@
       </Docs>
     </Member>
     <Member MemberName="Id">
-      <MemberSignature Language="C#" Value="public string Id { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier Id" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.NetworkUsage.Id" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
-      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Azure.ResourceManager.Network.Models.NetworkUsage.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.Id : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Network.Models.NetworkUsage.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Resource identifier. </summary>
@@ -78,18 +78,18 @@
       </Docs>
     </Member>
     <Member MemberName="Name">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.UsageName Name { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Network.Models.UsageName Name" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.NetworkUsageName Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Network.Models.NetworkUsageName Name" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.NetworkUsage.Name" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As UsageName" />
-      <MemberSignature Language="F#" Value="member this.Name : Azure.ResourceManager.Network.Models.UsageName" Usage="Azure.ResourceManager.Network.Models.NetworkUsage.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As NetworkUsageName" />
+      <MemberSignature Language="F#" Value="member this.Name : Azure.ResourceManager.Network.Models.NetworkUsageName" Usage="Azure.ResourceManager.Network.Models.NetworkUsage.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.UsageName</ReturnType>
+        <ReturnType>Azure.ResourceManager.Network.Models.NetworkUsageName</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The name of the type of usage. </summary>
@@ -98,18 +98,18 @@
       </Docs>
     </Member>
     <Member MemberName="Unit">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.UsageUnit Unit { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.Network.Models.UsageUnit Unit" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.NetworkUsageUnit Unit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.Network.Models.NetworkUsageUnit Unit" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.NetworkUsage.Unit" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Unit As UsageUnit" />
-      <MemberSignature Language="F#" Value="member this.Unit : Azure.ResourceManager.Network.Models.UsageUnit" Usage="Azure.ResourceManager.Network.Models.NetworkUsage.Unit" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Unit As NetworkUsageUnit" />
+      <MemberSignature Language="F#" Value="member this.Unit : Azure.ResourceManager.Network.Models.NetworkUsageUnit" Usage="Azure.ResourceManager.Network.Models.NetworkUsage.Unit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.UsageUnit</ReturnType>
+        <ReturnType>Azure.ResourceManager.Network.Models.NetworkUsageUnit</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> An enum describing the unit of measurement. </summary>

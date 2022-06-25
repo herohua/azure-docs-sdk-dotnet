@@ -39,6 +39,44 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string serverName, string jobAgentName, string jobName, Guid jobExecutionId, string stepName, Guid targetId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string serverName, string jobAgentName, string jobName, valuetype System.Guid jobExecutionId, string stepName, valuetype System.Guid targetId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Guid,System.String,System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, serverName As String, jobAgentName As String, jobName As String, jobExecutionId As Guid, stepName As String, targetId As Guid) As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * string * string * Guid * string * Guid -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, serverName, jobAgentName, jobName, jobExecutionId, stepName, targetId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionId" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="serverName" Type="System.String" />
+        <Parameter Name="jobAgentName" Type="System.String" />
+        <Parameter Name="jobName" Type="System.String" />
+        <Parameter Name="jobExecutionId" Type="System.Guid" />
+        <Parameter Name="stepName" Type="System.String" />
+        <Parameter Name="targetId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionId">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="serverName">To be added.</param>
+        <param name="jobAgentName">To be added.</param>
+        <param name="jobName">To be added.</param>
+        <param name="jobExecutionId">To be added.</param>
+        <param name="stepName">To be added.</param>
+        <param name="targetId">To be added.</param>
+        <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateResourceIdentifier">
       <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string serverName, string jobAgentName, string jobName, string jobExecutionId, string stepName, string targetId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string serverName, string jobAgentName, string jobName, string jobExecutionId, string stepName, string targetId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ServerJobAgentJobExecutionStepTargetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />

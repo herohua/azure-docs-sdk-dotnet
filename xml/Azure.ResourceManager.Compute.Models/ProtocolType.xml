@@ -1,0 +1,58 @@
+<Type Name="ProtocolType" FullName="Azure.ResourceManager.Compute.Models.ProtocolType">
+  <TypeSignature Language="C#" Value="public enum ProtocolType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ProtocolType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Compute.Models.ProtocolType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ProtocolType" />
+  <TypeSignature Language="F#" Value="type ProtocolType = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary> Specifies the protocol of WinRM listener. &lt;br&gt;&lt;br&gt; Possible values are: &lt;br&gt;**http** &lt;br&gt;&lt;br&gt; **https**. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Http">
+      <MemberSignature Language="C#" Value="Http" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.ResourceManager.Compute.Models.ProtocolType Http = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.Compute.Models.ProtocolType.Http" />
+      <MemberSignature Language="VB.NET" Value="Http" />
+      <MemberSignature Language="F#" Value="Http = 0" Usage="Azure.ResourceManager.Compute.Models.ProtocolType.Http" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.ProtocolType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary> Http. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Https">
+      <MemberSignature Language="C#" Value="Https" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.ResourceManager.Compute.Models.ProtocolType Https = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.Compute.Models.ProtocolType.Https" />
+      <MemberSignature Language="VB.NET" Value="Https" />
+      <MemberSignature Language="F#" Value="Https = 1" Usage="Azure.ResourceManager.Compute.Models.ProtocolType.Https" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Compute.Models.ProtocolType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary> Https. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

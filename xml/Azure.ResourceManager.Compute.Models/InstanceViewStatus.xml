@@ -74,18 +74,18 @@
       </Docs>
     </Member>
     <Member MemberName="Level">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.StatusLevelTypes? Level { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.StatusLevelTypes&gt; Level" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.StatusLevelType? Level { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.StatusLevelType&gt; Level" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.InstanceViewStatus.Level" />
-      <MemberSignature Language="VB.NET" Value="Public Property Level As Nullable(Of StatusLevelTypes)" />
-      <MemberSignature Language="F#" Value="member this.Level : Nullable&lt;Azure.ResourceManager.Compute.Models.StatusLevelTypes&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.InstanceViewStatus.Level" />
+      <MemberSignature Language="VB.NET" Value="Public Property Level As Nullable(Of StatusLevelType)" />
+      <MemberSignature Language="F#" Value="member this.Level : Nullable&lt;Azure.ResourceManager.Compute.Models.StatusLevelType&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.InstanceViewStatus.Level" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.StatusLevelTypes&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.StatusLevelType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The level code. </summary>

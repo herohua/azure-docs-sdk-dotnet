@@ -58,18 +58,18 @@
       </Docs>
     </Member>
     <Member MemberName="Origin">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.Origin? Origin { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.Origin&gt; Origin" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.IssueOrigin? Origin { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.IssueOrigin&gt; Origin" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ConnectivityIssue.Origin" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Origin As Nullable(Of Origin)" />
-      <MemberSignature Language="F#" Value="member this.Origin : Nullable&lt;Azure.ResourceManager.Network.Models.Origin&gt;" Usage="Azure.ResourceManager.Network.Models.ConnectivityIssue.Origin" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Origin As Nullable(Of IssueOrigin)" />
+      <MemberSignature Language="F#" Value="member this.Origin : Nullable&lt;Azure.ResourceManager.Network.Models.IssueOrigin&gt;" Usage="Azure.ResourceManager.Network.Models.ConnectivityIssue.Origin" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.Origin&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.IssueOrigin&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The origin of the issue. </summary>
@@ -78,18 +78,18 @@
       </Docs>
     </Member>
     <Member MemberName="Severity">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.Severity? Severity { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.Severity&gt; Severity" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.IssueSeverity? Severity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.IssueSeverity&gt; Severity" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ConnectivityIssue.Severity" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Severity As Nullable(Of Severity)" />
-      <MemberSignature Language="F#" Value="member this.Severity : Nullable&lt;Azure.ResourceManager.Network.Models.Severity&gt;" Usage="Azure.ResourceManager.Network.Models.ConnectivityIssue.Severity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Severity As Nullable(Of IssueSeverity)" />
+      <MemberSignature Language="F#" Value="member this.Severity : Nullable&lt;Azure.ResourceManager.Network.Models.IssueSeverity&gt;" Usage="Azure.ResourceManager.Network.Models.ConnectivityIssue.Severity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.Severity&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.IssueSeverity&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The severity of the issue. </summary>

@@ -34,6 +34,230 @@
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateResourceSetRule">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response CreateOrUpdateResourceSetRule (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response CreateOrUpdateResourceSetRule(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Administration.PurviewResourceSetRule.CreateOrUpdateResourceSetRule(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateResourceSetRule (content As RequestContent, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateResourceSetRule : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response&#xA;override this.CreateOrUpdateResourceSetRule : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response" Usage="purviewResourceSetRule.CreateOrUpdateResourceSetRule (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Administration</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Creates or updates an resource set config. </summary>
+        <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for the request and response payloads.
+            
+            Request Body:
+            
+            Schema for <c>ResourceSetRuleConfig</c>:
+            <code>{
+              advancedResourceSet: {
+                modifiedAt: string (ISO 8601 Format), # Optional. Date at which ResourceSetProcessing property of the account is updated.
+                resourceSetProcessing: "Default" | "Advanced", # Optional. The advanced resource property of the account.
+              }, # Optional. Gets or sets the advanced resource set property of the account.
+              name: string, # Optional. The name of the rule
+              pathPatternConfig: {
+                acceptedPatterns: [
+                  {
+                    createdBy: string, # Optional.
+                    filterType: "Pattern" | "Regex", # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    path: string, # Required.
+                  }
+                ], # Optional.
+                complexReplacers: [
+                  {
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Optional.
+                    typeName: string, # Optional.
+                  }
+                ], # Optional.
+                createdBy: string, # Required.
+                enableDefaultPatterns: boolean, # Required.
+                lastUpdatedTimestamp: number, # Optional.
+                modifiedBy: string, # Optional.
+                normalizationRules: [
+                  {
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    dynamicReplacement: boolean, # Optional.
+                    entityTypes: [string], # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    name: string, # Optional.
+                    regex: {
+                      maxDigits: number, # Optional.
+                      maxLetters: number, # Optional.
+                      minDashes: number, # Optional.
+                      minDigits: number, # Optional.
+                      minDigitsOrLetters: number, # Optional.
+                      minDots: number, # Optional.
+                      minHex: number, # Optional.
+                      minLetters: number, # Optional.
+                      minUnderscores: number, # Optional.
+                      options: number, # Optional.
+                      regexStr: string, # Optional.
+                    }, # Optional.
+                    replaceWith: string, # Optional.
+                    version: number, # Optional.
+                  }
+                ], # Optional.
+                regexReplacers: [
+                  {
+                    condition: string, # Optional.
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Required.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    doNotReplaceRegex: FastRegex, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    regex: FastRegex, # Optional.
+                    replaceWith: string, # Optional.
+                  }
+                ], # Optional.
+                rejectedPatterns: [Filter], # Optional.
+                scopedRules: [
+                  {
+                    bindingUrl: string, # Required.
+                    rules: [
+                      {
+                        displayName: string, # Optional.
+                        isResourceSet: boolean, # Optional.
+                        lastUpdatedTimestamp: number, # Optional.
+                        name: string, # Optional.
+                        qualifiedName: string, # Required.
+                      }
+                    ], # Optional.
+                    storeType: string, # Required.
+                  }
+                ], # Optional.
+                version: number, # Optional.
+              }, # Optional. The configuration rules for path pattern extraction.
+            }
+            </code>
+            
+            Response Body:
+            
+            Schema for <c>ResourceSetRuleConfig</c>:
+            <code>{
+              advancedResourceSet: {
+                modifiedAt: string (ISO 8601 Format), # Optional. Date at which ResourceSetProcessing property of the account is updated.
+                resourceSetProcessing: "Default" | "Advanced", # Optional. The advanced resource property of the account.
+              }, # Optional. Gets or sets the advanced resource set property of the account.
+              name: string, # Optional. The name of the rule
+              pathPatternConfig: {
+                acceptedPatterns: [
+                  {
+                    createdBy: string, # Optional.
+                    filterType: "Pattern" | "Regex", # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    path: string, # Required.
+                  }
+                ], # Optional.
+                complexReplacers: [
+                  {
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Optional.
+                    typeName: string, # Optional.
+                  }
+                ], # Optional.
+                createdBy: string, # Required.
+                enableDefaultPatterns: boolean, # Required.
+                lastUpdatedTimestamp: number, # Optional.
+                modifiedBy: string, # Optional.
+                normalizationRules: [
+                  {
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    dynamicReplacement: boolean, # Optional.
+                    entityTypes: [string], # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    name: string, # Optional.
+                    regex: {
+                      maxDigits: number, # Optional.
+                      maxLetters: number, # Optional.
+                      minDashes: number, # Optional.
+                      minDigits: number, # Optional.
+                      minDigitsOrLetters: number, # Optional.
+                      minDots: number, # Optional.
+                      minHex: number, # Optional.
+                      minLetters: number, # Optional.
+                      minUnderscores: number, # Optional.
+                      options: number, # Optional.
+                      regexStr: string, # Optional.
+                    }, # Optional.
+                    replaceWith: string, # Optional.
+                    version: number, # Optional.
+                  }
+                ], # Optional.
+                regexReplacers: [
+                  {
+                    condition: string, # Optional.
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Required.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    doNotReplaceRegex: FastRegex, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    regex: FastRegex, # Optional.
+                    replaceWith: string, # Optional.
+                  }
+                ], # Optional.
+                rejectedPatterns: [Filter], # Optional.
+                scopedRules: [
+                  {
+                    bindingUrl: string, # Required.
+                    rules: [
+                      {
+                        displayName: string, # Optional.
+                        isResourceSet: boolean, # Optional.
+                        lastUpdatedTimestamp: number, # Optional.
+                        name: string, # Optional.
+                        qualifiedName: string, # Required.
+                      }
+                    ], # Optional.
+                    storeType: string, # Required.
+                  }
+                ], # Optional.
+                version: number, # Optional.
+              }, # Optional. The configuration rules for path pattern extraction.
+            }
+            </code></remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateResourceSetRule">
       <MemberSignature Language="C#" Value="public virtual Azure.Response CreateOrUpdateResourceSetRule (Azure.Core.RequestContent content, Azure.RequestOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response CreateOrUpdateResourceSetRule(class Azure.Core.RequestContent content, class Azure.RequestOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Administration.PurviewResourceSetRule.CreateOrUpdateResourceSetRule(Azure.Core.RequestContent,Azure.RequestOptions)" />
@@ -264,6 +488,230 @@
             </code></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="content" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateResourceSetRuleAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; CreateOrUpdateResourceSetRuleAsync (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; CreateOrUpdateResourceSetRuleAsync(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Administration.PurviewResourceSetRule.CreateOrUpdateResourceSetRuleAsync(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateResourceSetRuleAsync (content As RequestContent, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateResourceSetRuleAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.CreateOrUpdateResourceSetRuleAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="purviewResourceSetRule.CreateOrUpdateResourceSetRuleAsync (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Administration</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Creates or updates an resource set config. </summary>
+        <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for the request and response payloads.
+            
+            Request Body:
+            
+            Schema for <c>ResourceSetRuleConfig</c>:
+            <code>{
+              advancedResourceSet: {
+                modifiedAt: string (ISO 8601 Format), # Optional. Date at which ResourceSetProcessing property of the account is updated.
+                resourceSetProcessing: "Default" | "Advanced", # Optional. The advanced resource property of the account.
+              }, # Optional. Gets or sets the advanced resource set property of the account.
+              name: string, # Optional. The name of the rule
+              pathPatternConfig: {
+                acceptedPatterns: [
+                  {
+                    createdBy: string, # Optional.
+                    filterType: "Pattern" | "Regex", # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    path: string, # Required.
+                  }
+                ], # Optional.
+                complexReplacers: [
+                  {
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Optional.
+                    typeName: string, # Optional.
+                  }
+                ], # Optional.
+                createdBy: string, # Required.
+                enableDefaultPatterns: boolean, # Required.
+                lastUpdatedTimestamp: number, # Optional.
+                modifiedBy: string, # Optional.
+                normalizationRules: [
+                  {
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    dynamicReplacement: boolean, # Optional.
+                    entityTypes: [string], # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    name: string, # Optional.
+                    regex: {
+                      maxDigits: number, # Optional.
+                      maxLetters: number, # Optional.
+                      minDashes: number, # Optional.
+                      minDigits: number, # Optional.
+                      minDigitsOrLetters: number, # Optional.
+                      minDots: number, # Optional.
+                      minHex: number, # Optional.
+                      minLetters: number, # Optional.
+                      minUnderscores: number, # Optional.
+                      options: number, # Optional.
+                      regexStr: string, # Optional.
+                    }, # Optional.
+                    replaceWith: string, # Optional.
+                    version: number, # Optional.
+                  }
+                ], # Optional.
+                regexReplacers: [
+                  {
+                    condition: string, # Optional.
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Required.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    doNotReplaceRegex: FastRegex, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    regex: FastRegex, # Optional.
+                    replaceWith: string, # Optional.
+                  }
+                ], # Optional.
+                rejectedPatterns: [Filter], # Optional.
+                scopedRules: [
+                  {
+                    bindingUrl: string, # Required.
+                    rules: [
+                      {
+                        displayName: string, # Optional.
+                        isResourceSet: boolean, # Optional.
+                        lastUpdatedTimestamp: number, # Optional.
+                        name: string, # Optional.
+                        qualifiedName: string, # Required.
+                      }
+                    ], # Optional.
+                    storeType: string, # Required.
+                  }
+                ], # Optional.
+                version: number, # Optional.
+              }, # Optional. The configuration rules for path pattern extraction.
+            }
+            </code>
+            
+            Response Body:
+            
+            Schema for <c>ResourceSetRuleConfig</c>:
+            <code>{
+              advancedResourceSet: {
+                modifiedAt: string (ISO 8601 Format), # Optional. Date at which ResourceSetProcessing property of the account is updated.
+                resourceSetProcessing: "Default" | "Advanced", # Optional. The advanced resource property of the account.
+              }, # Optional. Gets or sets the advanced resource set property of the account.
+              name: string, # Optional. The name of the rule
+              pathPatternConfig: {
+                acceptedPatterns: [
+                  {
+                    createdBy: string, # Optional.
+                    filterType: "Pattern" | "Regex", # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    path: string, # Required.
+                  }
+                ], # Optional.
+                complexReplacers: [
+                  {
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Optional.
+                    typeName: string, # Optional.
+                  }
+                ], # Optional.
+                createdBy: string, # Required.
+                enableDefaultPatterns: boolean, # Required.
+                lastUpdatedTimestamp: number, # Optional.
+                modifiedBy: string, # Optional.
+                normalizationRules: [
+                  {
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    dynamicReplacement: boolean, # Optional.
+                    entityTypes: [string], # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    name: string, # Optional.
+                    regex: {
+                      maxDigits: number, # Optional.
+                      maxLetters: number, # Optional.
+                      minDashes: number, # Optional.
+                      minDigits: number, # Optional.
+                      minDigitsOrLetters: number, # Optional.
+                      minDots: number, # Optional.
+                      minHex: number, # Optional.
+                      minLetters: number, # Optional.
+                      minUnderscores: number, # Optional.
+                      options: number, # Optional.
+                      regexStr: string, # Optional.
+                    }, # Optional.
+                    replaceWith: string, # Optional.
+                    version: number, # Optional.
+                  }
+                ], # Optional.
+                regexReplacers: [
+                  {
+                    condition: string, # Optional.
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Required.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    doNotReplaceRegex: FastRegex, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    regex: FastRegex, # Optional.
+                    replaceWith: string, # Optional.
+                  }
+                ], # Optional.
+                rejectedPatterns: [Filter], # Optional.
+                scopedRules: [
+                  {
+                    bindingUrl: string, # Required.
+                    rules: [
+                      {
+                        displayName: string, # Optional.
+                        isResourceSet: boolean, # Optional.
+                        lastUpdatedTimestamp: number, # Optional.
+                        name: string, # Optional.
+                        qualifiedName: string, # Required.
+                      }
+                    ], # Optional.
+                    storeType: string, # Required.
+                  }
+                ], # Optional.
+                version: number, # Optional.
+              }, # Optional. The configuration rules for path pattern extraction.
+            }
+            </code></remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="content" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateResourceSetRuleAsync">
@@ -500,6 +948,31 @@
       </Docs>
     </Member>
     <Member MemberName="DeleteResourceSetRule">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response DeleteResourceSetRule (Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response DeleteResourceSetRule(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Administration.PurviewResourceSetRule.DeleteResourceSetRule(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteResourceSetRule (Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member DeleteResourceSetRule : Azure.RequestContext -&gt; Azure.Response&#xA;override this.DeleteResourceSetRule : Azure.RequestContext -&gt; Azure.Response" Usage="purviewResourceSetRule.DeleteResourceSetRule context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Administration</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Deletes a ResourceSetRuleConfig resource. </summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteResourceSetRule">
       <MemberSignature Language="C#" Value="public virtual Azure.Response DeleteResourceSetRule (Azure.RequestOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response DeleteResourceSetRule(class Azure.RequestOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Administration.PurviewResourceSetRule.DeleteResourceSetRule(Azure.RequestOptions)" />
@@ -541,6 +1014,31 @@
       </Docs>
     </Member>
     <Member MemberName="DeleteResourceSetRuleAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; DeleteResourceSetRuleAsync (Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; DeleteResourceSetRuleAsync(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Administration.PurviewResourceSetRule.DeleteResourceSetRuleAsync(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteResourceSetRuleAsync (Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteResourceSetRuleAsync : Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.DeleteResourceSetRuleAsync : Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="purviewResourceSetRule.DeleteResourceSetRuleAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Administration</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Deletes a ResourceSetRuleConfig resource. </summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteResourceSetRuleAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; DeleteResourceSetRuleAsync (Azure.RequestOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; DeleteResourceSetRuleAsync(class Azure.RequestOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Administration.PurviewResourceSetRule.DeleteResourceSetRuleAsync(Azure.RequestOptions)" />
@@ -579,6 +1077,129 @@
               }
             }
             </code></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourceSetRule">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetResourceSetRule (Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetResourceSetRule(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Administration.PurviewResourceSetRule.GetResourceSetRule(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourceSetRule (Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member GetResourceSetRule : Azure.RequestContext -&gt; Azure.Response&#xA;override this.GetResourceSetRule : Azure.RequestContext -&gt; Azure.Response" Usage="purviewResourceSetRule.GetResourceSetRule context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Administration</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Get a resource set config service model. </summary>
+        <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>ResourceSetRuleConfig</c>:
+            <code>{
+              advancedResourceSet: {
+                modifiedAt: string (ISO 8601 Format), # Optional. Date at which ResourceSetProcessing property of the account is updated.
+                resourceSetProcessing: "Default" | "Advanced", # Optional. The advanced resource property of the account.
+              }, # Optional. Gets or sets the advanced resource set property of the account.
+              name: string, # Optional. The name of the rule
+              pathPatternConfig: {
+                acceptedPatterns: [
+                  {
+                    createdBy: string, # Optional.
+                    filterType: "Pattern" | "Regex", # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    path: string, # Required.
+                  }
+                ], # Optional.
+                complexReplacers: [
+                  {
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Optional.
+                    typeName: string, # Optional.
+                  }
+                ], # Optional.
+                createdBy: string, # Required.
+                enableDefaultPatterns: boolean, # Required.
+                lastUpdatedTimestamp: number, # Optional.
+                modifiedBy: string, # Optional.
+                normalizationRules: [
+                  {
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    dynamicReplacement: boolean, # Optional.
+                    entityTypes: [string], # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    name: string, # Optional.
+                    regex: {
+                      maxDigits: number, # Optional.
+                      maxLetters: number, # Optional.
+                      minDashes: number, # Optional.
+                      minDigits: number, # Optional.
+                      minDigitsOrLetters: number, # Optional.
+                      minDots: number, # Optional.
+                      minHex: number, # Optional.
+                      minLetters: number, # Optional.
+                      minUnderscores: number, # Optional.
+                      options: number, # Optional.
+                      regexStr: string, # Optional.
+                    }, # Optional.
+                    replaceWith: string, # Optional.
+                    version: number, # Optional.
+                  }
+                ], # Optional.
+                regexReplacers: [
+                  {
+                    condition: string, # Optional.
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Required.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    doNotReplaceRegex: FastRegex, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    regex: FastRegex, # Optional.
+                    replaceWith: string, # Optional.
+                  }
+                ], # Optional.
+                rejectedPatterns: [Filter], # Optional.
+                scopedRules: [
+                  {
+                    bindingUrl: string, # Required.
+                    rules: [
+                      {
+                        displayName: string, # Optional.
+                        isResourceSet: boolean, # Optional.
+                        lastUpdatedTimestamp: number, # Optional.
+                        name: string, # Optional.
+                        qualifiedName: string, # Required.
+                      }
+                    ], # Optional.
+                    storeType: string, # Required.
+                  }
+                ], # Optional.
+                version: number, # Optional.
+              }, # Optional. The configuration rules for path pattern extraction.
+            }
+            </code></remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetResourceSetRule">
@@ -714,6 +1335,129 @@
               }
             }
             </code></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourceSetRuleAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetResourceSetRuleAsync (Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetResourceSetRuleAsync(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Purview.Administration.PurviewResourceSetRule.GetResourceSetRuleAsync(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourceSetRuleAsync (Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member GetResourceSetRuleAsync : Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetResourceSetRuleAsync : Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="purviewResourceSetRule.GetResourceSetRuleAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Administration</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary> Get a resource set config service model. </summary>
+        <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>ResourceSetRuleConfig</c>:
+            <code>{
+              advancedResourceSet: {
+                modifiedAt: string (ISO 8601 Format), # Optional. Date at which ResourceSetProcessing property of the account is updated.
+                resourceSetProcessing: "Default" | "Advanced", # Optional. The advanced resource property of the account.
+              }, # Optional. Gets or sets the advanced resource set property of the account.
+              name: string, # Optional. The name of the rule
+              pathPatternConfig: {
+                acceptedPatterns: [
+                  {
+                    createdBy: string, # Optional.
+                    filterType: "Pattern" | "Regex", # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    path: string, # Required.
+                  }
+                ], # Optional.
+                complexReplacers: [
+                  {
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Optional.
+                    typeName: string, # Optional.
+                  }
+                ], # Optional.
+                createdBy: string, # Required.
+                enableDefaultPatterns: boolean, # Required.
+                lastUpdatedTimestamp: number, # Optional.
+                modifiedBy: string, # Optional.
+                normalizationRules: [
+                  {
+                    description: string, # Optional.
+                    disabled: boolean, # Optional.
+                    dynamicReplacement: boolean, # Optional.
+                    entityTypes: [string], # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    name: string, # Optional.
+                    regex: {
+                      maxDigits: number, # Optional.
+                      maxLetters: number, # Optional.
+                      minDashes: number, # Optional.
+                      minDigits: number, # Optional.
+                      minDigitsOrLetters: number, # Optional.
+                      minDots: number, # Optional.
+                      minHex: number, # Optional.
+                      minLetters: number, # Optional.
+                      minUnderscores: number, # Optional.
+                      options: number, # Optional.
+                      regexStr: string, # Optional.
+                    }, # Optional.
+                    replaceWith: string, # Optional.
+                    version: number, # Optional.
+                  }
+                ], # Optional.
+                regexReplacers: [
+                  {
+                    condition: string, # Optional.
+                    createdBy: string, # Optional.
+                    description: string, # Optional.
+                    disabled: boolean, # Required.
+                    disableRecursiveReplacerApplication: boolean, # Optional.
+                    doNotReplaceRegex: FastRegex, # Optional.
+                    lastUpdatedTimestamp: number, # Optional.
+                    modifiedBy: string, # Optional.
+                    name: string, # Required.
+                    regex: FastRegex, # Optional.
+                    replaceWith: string, # Optional.
+                  }
+                ], # Optional.
+                rejectedPatterns: [Filter], # Optional.
+                scopedRules: [
+                  {
+                    bindingUrl: string, # Required.
+                    rules: [
+                      {
+                        displayName: string, # Optional.
+                        isResourceSet: boolean, # Optional.
+                        lastUpdatedTimestamp: number, # Optional.
+                        name: string, # Optional.
+                        qualifiedName: string, # Required.
+                      }
+                    ], # Optional.
+                    storeType: string, # Required.
+                  }
+                ], # Optional.
+                version: number, # Optional.
+              }, # Optional. The configuration rules for path pattern extraction.
+            }
+            </code></remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetResourceSetRuleAsync">

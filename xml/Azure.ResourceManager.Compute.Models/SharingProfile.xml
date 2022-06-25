@@ -73,6 +73,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Permission">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.GallerySharingPermissionType? Permission { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.GallerySharingPermissionType&gt; Permission" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.SharingProfile.Permission" />
+      <MemberSignature Language="VB.NET" Value="Public Property Permission As Nullable(Of GallerySharingPermissionType)" />
+      <MemberSignature Language="F#" Value="member this.Permission : Nullable&lt;Azure.ResourceManager.Compute.Models.GallerySharingPermissionType&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.SharingProfile.Permission" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.GallerySharingPermissionType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> This property allows you to specify the permission of sharing gallery. &lt;br&gt;&lt;br&gt; Possible values are: &lt;br&gt;&lt;br&gt; **Private** &lt;br&gt;&lt;br&gt; **Groups** &lt;br&gt;&lt;br&gt; **Community**. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Permissions">
       <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.GallerySharingPermissionTypes? Permissions { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.GallerySharingPermissionTypes&gt; Permissions" />

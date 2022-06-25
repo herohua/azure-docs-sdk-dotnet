@@ -134,18 +134,18 @@
       </Docs>
     </Member>
     <Member MemberName="EvictionPolicy">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineEvictionPolicyTypes? EvictionPolicy { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.VirtualMachineEvictionPolicyTypes&gt; EvictionPolicy" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineEvictionPolicyType? EvictionPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.VirtualMachineEvictionPolicyType&gt; EvictionPolicy" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.VirtualMachinePatch.EvictionPolicy" />
-      <MemberSignature Language="VB.NET" Value="Public Property EvictionPolicy As Nullable(Of VirtualMachineEvictionPolicyTypes)" />
-      <MemberSignature Language="F#" Value="member this.EvictionPolicy : Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineEvictionPolicyTypes&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachinePatch.EvictionPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property EvictionPolicy As Nullable(Of VirtualMachineEvictionPolicyType)" />
+      <MemberSignature Language="F#" Value="member this.EvictionPolicy : Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineEvictionPolicyType&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachinePatch.EvictionPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineEvictionPolicyTypes&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineEvictionPolicyType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies the eviction policy for the Azure Spot virtual machine and Azure Spot scale set. &lt;br&gt;&lt;br&gt;For Azure Spot virtual machines, both 'Deallocate' and 'Delete' are supported and the minimum api-version is 2019-03-01. &lt;br&gt;&lt;br&gt;For Azure Spot scale sets, both 'Deallocate' and 'Delete' are supported and the minimum api-version is 2017-10-30-preview. </summary>
@@ -394,18 +394,18 @@
       </Docs>
     </Member>
     <Member MemberName="Priority">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachinePriorityTypes? Priority { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.VirtualMachinePriorityTypes&gt; Priority" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachinePriorityType? Priority { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.VirtualMachinePriorityType&gt; Priority" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.VirtualMachinePatch.Priority" />
-      <MemberSignature Language="VB.NET" Value="Public Property Priority As Nullable(Of VirtualMachinePriorityTypes)" />
-      <MemberSignature Language="F#" Value="member this.Priority : Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachinePriorityTypes&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachinePatch.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As Nullable(Of VirtualMachinePriorityType)" />
+      <MemberSignature Language="F#" Value="member this.Priority : Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachinePriorityType&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachinePatch.Priority" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachinePriorityTypes&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachinePriorityType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies the priority for the virtual machine. &lt;br&gt;&lt;br&gt;Minimum api-version: 2019-03-01. </summary>

@@ -1,15 +1,15 @@
 <Type Name="VirtualNetworkGatewayData" FullName="Azure.ResourceManager.Network.VirtualNetworkGatewayData">
-  <TypeSignature Language="C#" Value="public class VirtualNetworkGatewayData : Azure.ResourceManager.Network.Models.NetworkResourceData" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualNetworkGatewayData extends Azure.ResourceManager.Network.Models.NetworkResourceData" />
+  <TypeSignature Language="C#" Value="public class VirtualNetworkGatewayData : Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualNetworkGatewayData extends Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Network.VirtualNetworkGatewayData" />
-  <TypeSignature Language="VB.NET" Value="Public Class VirtualNetworkGatewayData&#xA;Inherits NetworkResourceData" />
-  <TypeSignature Language="F#" Value="type VirtualNetworkGatewayData = class&#xA;    inherit NetworkResourceData" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualNetworkGatewayData&#xA;Inherits NetworkTrackedResourceData" />
+  <TypeSignature Language="F#" Value="type VirtualNetworkGatewayData = class&#xA;    inherit NetworkTrackedResourceData" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.ResourceManager.Network.Models.NetworkResourceData</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.Network.Models.NetworkTrackedResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -193,6 +193,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ETag">
+      <MemberSignature Language="C#" Value="public Azure.ETag? ETag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; ETag" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.VirtualNetworkGatewayData.ETag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ETag As Nullable(Of ETag)" />
+      <MemberSignature Language="F#" Value="member this.ETag : Nullable&lt;Azure.ETag&gt;" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayData.ETag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ETag&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> A unique read-only string that changes whenever the resource is updated. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ExtendedLocation">
       <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.ExtendedLocation ExtendedLocation { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Network.Models.ExtendedLocation ExtendedLocation" />
@@ -314,18 +334,18 @@
       </Docs>
     </Member>
     <Member MemberName="ProvisioningState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.ProvisioningState? ProvisioningState { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.ProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.NetworkProvisioningState? ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt; ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.VirtualNetworkGatewayData.ProvisioningState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of ProvisioningState)" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.ProvisioningState&gt;" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayData.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of NetworkProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayData.ProvisioningState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.ProvisioningState&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The provisioning state of the virtual network gateway resource. </summary>
@@ -334,18 +354,18 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceGuid">
-      <MemberSignature Language="C#" Value="public string ResourceGuid { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ResourceGuid" />
+      <MemberSignature Language="C#" Value="public Guid? ResourceGuid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; ResourceGuid" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.VirtualNetworkGatewayData.ResourceGuid" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As String" />
-      <MemberSignature Language="F#" Value="member this.ResourceGuid : string" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayData.ResourceGuid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.ResourceGuid : Nullable&lt;Guid&gt;" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayData.ResourceGuid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resource GUID property of the virtual network gateway resource. </summary>
@@ -374,18 +394,18 @@
       </Docs>
     </Member>
     <Member MemberName="VNetExtendedLocationResourceId">
-      <MemberSignature Language="C#" Value="public string VNetExtendedLocationResourceId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string VNetExtendedLocationResourceId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier VNetExtendedLocationResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier VNetExtendedLocationResourceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.VirtualNetworkGatewayData.VNetExtendedLocationResourceId" />
-      <MemberSignature Language="VB.NET" Value="Public Property VNetExtendedLocationResourceId As String" />
-      <MemberSignature Language="F#" Value="member this.VNetExtendedLocationResourceId : string with get, set" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayData.VNetExtendedLocationResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property VNetExtendedLocationResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.VNetExtendedLocationResourceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayData.VNetExtendedLocationResourceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Customer vnet resource id. VirtualNetworkGateway of type local gateway is associated with the customer vnet. </summary>

@@ -93,6 +93,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="IPConfigurationId">
+      <MemberSignature Language="C#" Value="public string IPConfigurationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string IPConfigurationId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.IPConfigurationBgpPeeringAddress.IPConfigurationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property IPConfigurationId As String" />
+      <MemberSignature Language="F#" Value="member this.IPConfigurationId : string with get, set" Usage="Azure.ResourceManager.Network.Models.IPConfigurationBgpPeeringAddress.IPConfigurationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The ID of IP configuration which belongs to gateway. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="TunnelIPAddresses">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; TunnelIPAddresses { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; TunnelIPAddresses" />

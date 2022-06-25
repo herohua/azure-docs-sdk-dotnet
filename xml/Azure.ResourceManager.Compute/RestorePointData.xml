@@ -34,18 +34,18 @@
       </Docs>
     </Member>
     <Member MemberName="ConsistencyMode">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.ConsistencyModeTypes? ConsistencyMode { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ConsistencyModeTypes&gt; ConsistencyMode" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.ConsistencyModeType? ConsistencyMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ConsistencyModeType&gt; ConsistencyMode" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.RestorePointData.ConsistencyMode" />
-      <MemberSignature Language="VB.NET" Value="Public Property ConsistencyMode As Nullable(Of ConsistencyModeTypes)" />
-      <MemberSignature Language="F#" Value="member this.ConsistencyMode : Nullable&lt;Azure.ResourceManager.Compute.Models.ConsistencyModeTypes&gt; with get, set" Usage="Azure.ResourceManager.Compute.RestorePointData.ConsistencyMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConsistencyMode As Nullable(Of ConsistencyModeType)" />
+      <MemberSignature Language="F#" Value="member this.ConsistencyMode : Nullable&lt;Azure.ResourceManager.Compute.Models.ConsistencyModeType&gt; with get, set" Usage="Azure.ResourceManager.Compute.RestorePointData.ConsistencyMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.ConsistencyModeTypes&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.ConsistencyModeType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> ConsistencyMode of the RestorePoint. Can be specified in the input while creating a restore point. For now, only CrashConsistent is accepted as a valid input. Please refer to https://aka.ms/RestorePoints for more details. </summary>

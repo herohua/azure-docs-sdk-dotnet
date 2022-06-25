@@ -74,18 +74,18 @@
       </Docs>
     </Member>
     <Member MemberName="StorageAccountType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.StorageAccountTypes? StorageAccountType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.StorageAccountTypes&gt; StorageAccountType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.StorageAccountType? StorageAccountType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.StorageAccountType&gt; StorageAccountType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.ManagedDiskParameters.StorageAccountType" />
-      <MemberSignature Language="VB.NET" Value="Public Property StorageAccountType As Nullable(Of StorageAccountTypes)" />
-      <MemberSignature Language="F#" Value="member this.StorageAccountType : Nullable&lt;Azure.ResourceManager.Compute.Models.StorageAccountTypes&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.ManagedDiskParameters.StorageAccountType" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageAccountType As Nullable(Of StorageAccountType)" />
+      <MemberSignature Language="F#" Value="member this.StorageAccountType : Nullable&lt;Azure.ResourceManager.Compute.Models.StorageAccountType&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.ManagedDiskParameters.StorageAccountType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.StorageAccountTypes&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.StorageAccountType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies the storage account type for the managed disk. NOTE: UltraSSD_LRS can only be used with data disks, it cannot be used with OS Disk. </summary>
